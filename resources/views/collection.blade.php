@@ -24,8 +24,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="COMPUTER"
                                       height="1000"
@@ -50,8 +50,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="ELECTRONICS"
                                       height="1000"
@@ -76,8 +76,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="MOBILE"
                                       height="1000"
@@ -102,8 +102,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="SPEAKER"
                                       height="1000"
@@ -128,8 +128,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="SPECIAL_ELECTRONIC"
                                       height="1000"
@@ -154,8 +154,8 @@
                              <div class="collection-grid-item">
                                 <div class="collection-grid-item__overlay media media--square"
                                    >
-                                   <img srcset="images/collection_165x.png 165w,images/collection_330x.png 330w,images/collection_535x.png 535w,images/collection_720x.png 720w,images/collection_940x.png 940w,images/collection_1000x.png 1000w"
-                                      data-src="images/collection_535x.png"
+                                   <img srcset="{{ asset('assets/images/collection_165x.png') }} 165w,{{ asset('assets/images/collection_330x.png') }} 330w,{{ asset('assets/images/collection_535x.png') }} 535w,{{ asset('assets/images/collection_720x.png') }} 720w,{{ asset('assets/images/collection_940x.png') }} 940w,{{ asset('assets/images/collection_1000x.png') }} 1000w"
+                                      data-src="{{ asset('assets/images/collection_535x.png') }}"
                                       sizes="(min-width: 1100px)535px, (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 3rem)"
                                       alt="NEW_ELECTRONIC"
                                       height="1000"

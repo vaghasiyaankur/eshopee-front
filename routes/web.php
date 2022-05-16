@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('collections', function () {
     return view('collection');
 });
+Route::get('collections-all', function () {
+    return view('collection-all');
+});

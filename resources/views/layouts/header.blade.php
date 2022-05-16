@@ -75,7 +75,7 @@
          }
       </style>
    </head>
-   <body class="template-index">
+   <body class=" @if (Request::path() == '/') template-index @endif  @if (Request::path() == 'collections') template-list-collections @endif" >
 <div id="header">
     <header class="site-header">
        <div class="nav-header">
@@ -342,8 +342,8 @@
           <div class="row">
              <div id="shopify-section-Ishi_megamenu" class="shopify-section">
                 <div data-section-id="Ishi_megamenu" data-section-type="megamenu-header">
-                   <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown open index" role="navigation">
-                      <div class="desktop-menu-block expand-more hidden-sm-down"   role="button">
+                   <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown" role="navigation">
+                      <div class="desktop-menu-block expand-more hidden-sm-down" data-toggle="dropdown"  role="button">
                          <h2 class="home-title hidden-lg-down">
                             ALL CATEGORIES
                          </h2>
