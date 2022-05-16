@@ -1,3 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="{{ asset('assets/css/includes.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/base.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <style>
+         :root {
+            --font-body-family: Roboto, sans-serif;
+            --font-body-style: normal;
+            --font-body-weight: 400;
+            --font-weight-body--bold: 400;
+         }
+         *,
+         *::before,
+         *::after {
+            box-sizing: inherit;
+         }
+         html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+            height: 100%;
+         }
+         body {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-columns: 100%;
+            min-height: 100%;
+            margin: 0;
+            font-size: 14px;
+            letter-spacing: 0.06rem;
+            line-height: 1.8;
+            font-family: var(--font-body-family);
+            font-style: var(--font-body-style);
+            font-weight: var(--font-body-weight);
+         }
+         :root {
+            --brand-secondary: #ce1d76;
+            --brand-modify-secondary: rgba(206, 29, 118, 0.3);
+            --button-bg-color: #fed700;
+            --button-text-color: #232323;
+            --button-bg-hover-color: #ce1d76;
+            --button-text-hover-color: #ffffff;
+            --button-text-hover-modify-color: rgba(255, 255, 255, 0.4);
+            --product-btn-bg-color: #ffffff;
+            --product-icon-color: #222222;
+            --product-btn-bg-hover-color:  #ce1d76;
+            --product-icon-hover-color: #ffffff;
+            --navbar-background-color: #f6f7f8;
+            --navbar-text-modify-color: rgba(102, 102, 102, 0.1);
+            --navbar-text-color: #666666;
+            --menu-bg-color:#232323;
+            --menu-text-modify-color:rgba(255, 255, 255, 0.1);
+            --menu-text-color:#FFFFFF;
+            --menu-text-hover-color:#ce1d76;
+            --sale-bg-color:#7fbc1e;
+            --sale-text-color:#ffffff;
+            --soldout-bg-color:#c92c2c;
+            --soldout-text-color:#ffffff;
+            --footer-bg-color: #f5f7f8;
+            --footer-heading-color: #232323;
+            --footer-text-color: #666666;
+            --footer-text-hover-color: #ce1d76;
+            --footer-bottom-bg-color: #232323;
+            --footer-bottom-text-color: #ffffff;
+            --password-color: #232323;
+            --password-textcolor: #FFFFFF;
+            --font-body-family: Roboto;
+         }
+      </style>
+   </head>
+   <body class="template-index">
 <div id="header">
     <header class="site-header">
        <div class="nav-header">
@@ -409,15 +487,15 @@
                                                  <a href="products/canon-eos-5d.html" class="full-unstyled-link">
                                                     <div class="media media--transparent media--square media--hover-effect"
                                                        >
-                                                       <!-- <img srcset="images/image_165x.png 165w,images/image_360x.png 360w,images/image_533x.png 533w,images/image_720x.png 720w,images/image_940x.png 940w,images/image_1000x.png 1000w"
-                                                          data-src="images/image_533x.png"
+                                                       <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                          data-src="{{ asset('assets/images/image_533x.png') }}"
                                                           sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                           alt="Canon EOS 5D"
                                                           loading="lazy"
                                                           class="motion-reduce lazyload"
                                                           width="1000"
                                                           height="1000"
-                                                          > -->
+                                                          >
                                                     </div>
                                                  </a>
                                               </div>
@@ -600,15 +678,15 @@
                                                  <a href="products/digital-smart-watch.html" class="full-unstyled-link">
                                                     <div class="media media--transparent media--square media--hover-effect"
                                                        >
-                                                       <!-- <img srcset="//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_165x.png?v=1558174347 165w,//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_360x.png?v=1558174347 360w,//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_533x.png?v=1558174347 533w,//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_720x.png?v=1558174347 720w,//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_940x.png?v=1558174347 940w,//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb.png?v=1558174347 1000w"
-                                                          data-src="//cdn.shopify.com/s/files/1/0250/3793/0580/products/11_29417fee-45ad-48fe-8e13-27e2a0432ceb_533x.png?v=1558174347"
+                                                       <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                          data-src="{{ asset('assets/images/image_533x.png') }}"
                                                           sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                           alt="Digital Smart Watch"
                                                           loading="lazy"
                                                           class="motion-reduce lazyload"
                                                           width="1000"
                                                           height="1000"
-                                                          > -->
+                                                          >
                                                     </div>
                                                  </a>
                                               </div>

@@ -25,9 +25,9 @@
                          <a href="collections/mobile.html">
                             <div class="service-img-outer">
                                <div class="service-img service-hover">
-                                  <img class="lazyload" data-src="images/l2.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/l2.png') }}" alt="service Image">
                                   <span class="service-img-hover">
-                                  <img class="lazyload" data-src="images/lb2.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/lb2.png') }}" alt="service Image">
                                   </span>
                                </div>
                             </div>
@@ -41,9 +41,9 @@
                          <a href="collections/new_electronic.html">
                             <div class="service-img-outer">
                                <div class="service-img service-hover">
-                                  <img class="lazyload" data-src="images/l3.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/l3.png') }}" alt="service Image">
                                   <span class="service-img-hover">
-                                  <img class="lazyload" data-src="images/lb3.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/lb3.png') }}" alt="service Image">
                                   </span>
                                </div>
                             </div>
@@ -57,9 +57,9 @@
                          <a href="collections/speaker.html">
                             <div class="service-img-outer">
                                <div class="service-img service-hover">
-                                  <img class="lazyload" data-src="images/l4.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/l4.png') }}" alt="service Image">
                                   <span class="service-img-hover">
-                                  <img class="lazyload" data-src="images/lb4.png" alt="service Image">
+                                  <img class="lazyload" data-src="{{ asset('assets/images/lb4.png') }}" alt="service Image">
                                   </span>
                                </div>
                             </div>
@@ -77,7 +77,7 @@
                    <div class="ishistoreinfo-container ishistoreinfo-inner ">
                       <div class="store-img">
                          <img class="lazyload"
-                            data-src="images/logo-footer.png"
+                            data-src="{{ asset('assets/images/logo-footer.png') }}"
                             alt="Techayo Sectioned Shopify Theme"
                             itemprop="logo" style="width: px;">
                          <div class="store-desc">
@@ -278,7 +278,7 @@
     <div class="newsletter-popup-overlay"> </div>
     <ishimodal-dialog id="PopupModal-newsletter" class="product-popup-modal toggle-dropdown">
        <div role="dialog" aria-label="PopupModal-newsletter" aria-modal="true" class="newsletter-popup-modal__content" tabindex="-1" data-timeout="4">
-          <div class="modal-content popup-bg-color lazyload popup-bg-image" data-bg="images/n-banner.png">
+          <div class="modal-content popup-bg-color lazyload popup-bg-image" data-bg="{{ asset('assets/images/n-banner.png') }}">
              <button id="ModalClose-newsletter" type="button" class="product-popup-modal__toggle" aria-label="Close">
                 <svg aria-hidden="true" focusable="false" role="presentation" class="icon" viewBox="0 0 16 17" >
                    <path fill-rule="evenodd" clip-rule="evenodd" d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor"/>

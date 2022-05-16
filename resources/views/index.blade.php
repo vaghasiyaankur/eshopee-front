@@ -99,7 +99,7 @@
                      <a href="collections/new_electronic.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
                            <img 
-                              src="images/slide-196a9.jpg"
+                              src="{{ asset ('assets/images/slide-196a9.jpg') }}"
                               alt="Slider Image">
                            <div class="page-width">
                               <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-left" style="text-align:left">
@@ -120,7 +120,7 @@
                      <a href="collections/speaker.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
                            <img 
-                              src="images/slide-296a9.jpg"
+                              src="{{ asset ('assets/images/slide-296a9.jpg') }}"
                               alt="Slider Image">
                            <div class="page-width">
                               <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-right" style="text-align:right">
@@ -140,7 +140,7 @@
                </div>
                <div class="ishislideshow-space">
                   <div class="slideshow__item" style="padding-bottom:17%;padding-top: 17%;">
-                     <img src="images/loader.svg" />
+                     <img src="{{ asset ('assets/images/loader.svg') }}" />
                   </div>
                </div>
             </div>
@@ -239,16 +239,16 @@
                                              <a href="products/home-sparkle-sh731-wall-shelf.html" class="full-unstyled-link">
                                                 <div class="media media--transparent media--square media--hover-effect"
                                                    >
-                                                   <img srcset="{{ asset('assets/images/images_165x.png') }} 165w,{{ asset('assets/{{ asset('assets/images/image_360x.png') }}') }} 360w,{{ asset('assets/{{ asset('assets/images/image_533x.png') }}') }} 533w,{{ asset('assets/{{ asset('assets/images/image_720x.png') }}') }} 720w,{{ asset('assets/{{ asset('assets/images/image_940x.png') }}') }} 940w,{{ asset('assets/{{ asset('assets/images/image_1000x.png') }}') }} 1000w"
-                                                      data-src="{{ asset('assets/{{ asset('assets/images/image_533x.png') }}') }}"
+                                                   <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Home Sparkle Wall"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
                                                       height="1000"
-                                                      ><img srcset="{{ asset('assets/images/images_165x.png') }} 165w,{{ asset('assets/{{ asset('assets/images/image_360x.png') }}') }} 360w,{{ asset('assets/{{ asset('assets/images/image_533x.png') }}') }} 533w,{{ asset('assets/{{ asset('assets/images/image_720x.png') }}') }} 720w,{{ asset('assets/{{ asset('assets/images/image_940x.png') }}') }} 940w,{{ asset('assets/{{ asset('assets/images/image_1000x.png') }}') }} 1000w"
-                                                      data-src="{{ asset('assets/{{ asset('assets/images/image_533x.png') }}') }}"
+                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Home Sparkle Wall"
                                                       loading="lazy"
@@ -5472,7 +5472,7 @@
                                     href="collections/computer.html"
                                     style="padding-bottom: 133.33333333333334%;">                  
                                  <img class="lazyload"
-                                    data-src="images/Multi-Banner-1.png"
+                                    data-src="{{ asset('assets/images/Multi-Banner-1.png') }}"
                                     alt="Banner Image">
                                  </a>
                               </div>
@@ -5483,7 +5483,7 @@
                                     href="collections/electronics.html"
                                     style="padding-bottom: 74.07407407407408%;">
                                  <img class="lazyload"
-                                    data-src="images/Multi-Banner-4.png"
+                                    data-src="{{ asset('assets/images/Multi-Banner-4.png') }}"
                                     alt="Banner Image">
                                  </a>
                               </div>
@@ -5498,7 +5498,7 @@
                                     href="collections/mobile.html"
                                     style="padding-bottom: 35.2112676056338%;">
                                  <img class="lazyload"
-                                    data-src="images/Multi-Banner-2.png"
+                                    data-src="{{ asset('assets/images/Multi-Banner-2.png') }}"
                                     alt="Banner Image">
                                  </a>
                               </div>
@@ -5509,7 +5509,7 @@
                                     href="collections/speaker.html"
                                     style="padding-bottom: 74.07407407407408%;">
                                  <img class="lazyload"
-                                    data-src="images/Multi-Banner-3.png"
+                                    data-src="{{ asset('assets/images/Multi-Banner-3.png') }}"
                                     alt="Banner Image">
                                  </a>
                               </div>
@@ -5520,7 +5520,7 @@
                                     href="collections/mobile.html"
                                     style="padding-bottom: 41.37931034482759%;">
                                  <img class="lazyload"
-                                    data-src="images/Multi-Banner-5.png"
+                                    data-src="{{ asset('assets/images/Multi-Banner-5.png') }}"
                                     alt="Banner Image">
                                  </a>
                               </div>
@@ -5824,12 +5824,12 @@
                                                       <div class="thumbnails-wrapper">
                                                          <div class="js-qv-mask mask">
                                                             <ul class="grid grid--uniform product-single__thumbnails product-single__thumbnails-template--14217818308692__164603800170f9fa89">
-                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('images/deal-p1.png') }}">
+                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/deal-p1.png') }}">
                                                                   <a href="javascript:void(0)"
                                                                      class="text-link product-single__thumbnail product-single__thumbnail--template--14217818308692__164603800170f9fa89"
                                                                      data-thumbnail-id="11075769008212"
                                                                      >
-                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('images/deal-p1.png') }}" alt="Airtight Fod Storage">
+                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('assets/images/deal-p1.png') }}" alt="Airtight Fod Storage">
                                                                   </a>
                                                                </li>
                                                                <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/deal-p2.png') }}">
@@ -5848,12 +5848,12 @@
                                                                   <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('assets/images/deal-p3.png') }}" alt="Airtight Fod Storage">
                                                                   </a>
                                                                </li>
-                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('images/deal-p1.png') }}">
+                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/deal-p1.png') }}">
                                                                   <a href="javascript:void(0)"
                                                                      class="text-link product-single__thumbnail product-single__thumbnail--template--14217818308692__164603800170f9fa89"
                                                                      data-thumbnail-id="11075772678228"
                                                                      >
-                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('images/deal-p1.png') }}" alt="Airtight Fod Storage">
+                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('assets/images/deal-p1.png') }}" alt="Airtight Fod Storage">
                                                                   </a>
                                                                </li>
                                                                <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/deal-p2.png') }}">
@@ -5881,7 +5881,7 @@
                                                          <div class="media media--transparent media--square media--hover-effect"
                                                             >
                                                             <img 
-                                                               data-src="i{{ asset('assets/mages/1.png') }}"
+                                                               data-src="{{ asset('assets/images/1.png') }}"
                                                                sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                alt="Airtight Fod Storage"
                                                                loading="lazy"
@@ -6087,12 +6087,12 @@
                                                                   <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('assets/images/10.png') }}" alt="Customizable Debet">
                                                                   </a>
                                                                </li>
-                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('images/11.png') }}">
+                                                               <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/11.png') }}">
                                                                   <a href="javascript:void(0)"
                                                                      class="text-link product-single__thumbnail product-single__thumbnail--template--14217818308692__164603800170f9fa89"
                                                                      data-thumbnail-id="11075724378196"
                                                                      >
-                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('images/11.png') }}" alt="Customizable Debet">
+                                                                  <img class="product-single__thumbnail-image lazyload" data-src="{{ asset('assets/images/11.png') }}" alt="Customizable Debet">
                                                                   </a>
                                                                </li>
                                                                <li class="product-single__thumbnails-item js" data-large-img="{{ asset('assets/images/9.png') }}">
@@ -6327,16 +6327,16 @@
                                                          <a href="products/home-sparkle-sh731-wall-shelf.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Home Sparkle Wall"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Home Sparkle Wall"
                                                                   loading="lazy"
@@ -6496,16 +6496,16 @@
                                                          <a href="products/royaloak-bell-office-table.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Royaloak Bell Table"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Royaloak Bell Table"
                                                                   loading="lazy"
@@ -6664,16 +6664,16 @@
                                                          <a href="products/customizable-debet-new.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
@@ -6832,16 +6832,16 @@
                                                          <a href="products/forzza-vincent-corner.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Forzza Vincent"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Forzza Vincent"
                                                                   loading="lazy"
@@ -7001,16 +7001,16 @@
                                                          <a href="products/hp-lp3065.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HP LP3065"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HP LP3065"
                                                                   loading="lazy"
@@ -7172,16 +7172,16 @@
                                                          <a href="products/digital-smart-watch.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Digital Smart Watch"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Digital Smart Watch"
                                                                   loading="lazy"
@@ -7340,16 +7340,16 @@
                                                          <a href="products/canon-eos-5d.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Canon EOS 5D"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Canon EOS 5D"
                                                                   loading="lazy"
@@ -7508,16 +7508,16 @@
                                                          <a href="products/customizable-debet.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
@@ -7676,16 +7676,16 @@
                                                          <a href="products/htc-touch-hd.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HTC Touch HD"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HTC Touch HD"
                                                                   loading="lazy"
@@ -7845,16 +7845,16 @@
                                                          <a href="products/3pc-airtight-food-storage-containers.html" class="full-unstyled-link">
                                                             <div class="media media--transparent media--square media--hover-effect"
                                                                >
-                                                               <img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                               <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Airtight Fod Storage"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
                                                                   height="1000"
-                                                                  ><img srcset="images/tv_165x.png 165w,images/tv_360x.png 360w,images/tv_533x.png 533w,images/tv_720x.png 720w,images/tv_940x.png 940w,images/tv_1000x.png 1000w"
-                                                                  data-src="images/tv_720x.png"
+                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Airtight Fod Storage"
                                                                   loading="lazy"
@@ -8202,7 +8202,7 @@
       <section id="shopify-section-template--14217818308692__164602263914a92ef3" class="shopify-section ishi-parallax-section">
          <div class="ishiparallaxbanner clearfix">
             <div class="parallax-block parallaximage lazyload"
-               data-bg="images/parallax.png">
+               data-bg="{{ asset('assets/images/parallax.png') }}">
                <div class="page-width">
                   <div class="parallax-list parallax-text-left">
                      <div class="parallax-discount">Great...</div>
