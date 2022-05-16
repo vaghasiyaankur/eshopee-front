@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Home</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="{{ asset('assets/css/includes.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/base.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -75,7 +76,7 @@
          }
       </style>
    </head>
-   <body class="template-index">
+   <body class=" @if (Request::path() == '/') template-index @endif  @if (Request::path() == 'collections') template-list-collections @endif" >
 <div id="header">
     <header class="site-header">
        <div class="nav-header">
@@ -342,8 +343,8 @@
           <div class="row">
              <div id="shopify-section-Ishi_megamenu" class="shopify-section">
                 <div data-section-id="Ishi_megamenu" data-section-type="megamenu-header">
-                   <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown open index" role="navigation">
-                      <div class="desktop-menu-block expand-more hidden-sm-down"   role="button">
+                   <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown" role="navigation">
+                      <div class="desktop-menu-block expand-more hidden-sm-down" data-toggle="dropdown"  role="button">
                          <h2 class="home-title hidden-lg-down">
                             ALL CATEGORIES
                          </h2>
@@ -728,7 +729,7 @@
                          <li class="category">
                             <span class="float-xs-right hidden-lg-up">
                             </span>
-                            <a href="pages/about-us.html" class="dropdown-item">
+                            <a href="about" class="dropdown-item">
                                <h3 class="title">Aboutus</h3>
                             </a>
                          </li>
@@ -801,16 +802,16 @@
                                <h4 class="small-title">Menu</h4>
                                <ul id="small-container" class="bullet small toggle-dropdown">
                                   <li>
-                                     <a href="pages/about-us.html">About us</a>
+                                     <a href="about">About us</a>
                                   </li>
                                   <li>
-                                     <a href="collections.html">Collection</a>
+                                     <a href="collections">Collection</a>
                                   </li>
                                   <li>
-                                     <a href="pages/contact.html">Contact</a>
+                                     <a href="contact">Contact</a>
                                   </li>
                                   <li>
-                                     <a href="blogs/electronic.html">Blog</a>
+                                     <a href="blogs">Blog</a>
                                   </li>
                                   <li>
                                      <a href="collections/computer.html">Shop</a>

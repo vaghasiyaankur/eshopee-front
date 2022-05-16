@@ -98,16 +98,12 @@
                   <div class="slideshow__item" >
                      <a href="collections/new_electronic.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
-                           <img
-                              src="{{ asset ('assets/images/slide-196a9.jpg') }}"
-                              alt="Slider Image">
+                           <img src="{{ asset ('assets/images/slide-196a9.jpg') }}" alt="Slider Image">
                            <div class="page-width">
                               <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-left" style="text-align:left">
                                  <div class="sub-title" style="color:#ce1d76"> Silver Aluminum</div>
                                  <div class="main-title" style="color:#222222">Apple Watch</div>
-                                 <div class="desc" style="color:#666666;background-color:#ffffff;border-color:#eeeeee;">
-                                    White Spoart Band &amp; 30% Off First Order
-                                 </div>
+                                 <div class="desc" style="color:#666666;background-color:#ffffff;border-color:#eeeeee;">White Spoart Band &amp; 30% Off First Order</div>
                                  <div class="slider-btn">
                                     <div class="btn">SHOP NOW</div>
                                  </div>
@@ -119,9 +115,7 @@
                   <div class="slideshow__item" >
                      <a href="collections/speaker.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
-                           <img
-                              src="{{ asset ('assets/images/slide-296a9.jpg') }}"
-                              alt="Slider Image">
+                           <img src="{{ asset ('assets/images/slide-296a9.jpg') }}" alt="Slider Image">
                            <div class="page-width">
                               <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-right" style="text-align:right">
                                  <div class="sub-title" style="color:#ce1d76"> Silver Aluminum</div>
@@ -178,27 +172,21 @@
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
                      <a class="media ishi-customhover-fadeinrotate scale" href="collections/speaker.html" style="padding-bottom: 56.75675675675675%;">
-                     <img class="lazyload"
-                        data-src="{{ asset('assets/images/Banner-1.png') }}"
-                        alt="Banner Image">
+                        <img class="lazyload" data-src="{{ asset('assets/images/Banner-1.png') }}" alt="Banner Image">
                      </a>
                   </div>
                </div>
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
                      <a class="media ishi-customhover-fadeinrotate scale" href="collections/special_electronic.html" style="padding-bottom: 56.75675675675675%;">
-                     <img class="lazyload"
-                        data-src="{{ asset('assets/images/Banner-2.png') }}"
-                        alt="Banner Image">
+                        <img class="lazyload" data-src="{{ asset('assets/images/Banner-2.png') }}" alt="Banner Image">
                      </a>
                   </div>
                </div>
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
                      <a class="media ishi-customhover-fadeinrotate scale" href="collections/new_electronic.html" style="padding-bottom: 56.75675675675675%;">
-                     <img class="lazyload"
-                        data-src="{{ asset('assets/images/Banner-3.png') }}"
-                        alt="Banner Image">
+                        <img class="lazyload" data-src="{{ asset('assets/images/Banner-3.png') }}" alt="Banner Image">
                      </a>
                   </div>
                </div>
@@ -238,8 +226,7 @@
                                        <div class="card card--product" tabindex="-1">
                                           <div class="card__inner ">
                                              <a href="products/home-sparkle-sh731-wall-shelf.html" class="full-unstyled-link">
-                                                <div class="media media--transparent media--square media--hover-effect"
-                                                   >
+                                                <div class="media media--transparent media--square media--hover-effect">
                                                    <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -247,16 +234,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Home Sparkle Wall"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -333,9 +319,7 @@
                                        <div class="card-information">
                                           <div class="card-information__wrapper">
                                              <span class="card-information__text h5">
-                                             <a href="products/home-sparkle-sh731-wall-shelf.html" class="full-unstyled-link">
-                                             Home Sparkle Wall
-                                             </a>
+                                                <a href="products/home-sparkle-sh731-wall-shelf.html" class="full-unstyled-link">Home Sparkle Wall</a>
                                              </span>
                                              <span class="caption-large light"></span>
                                              <div class="price  price--on-sale ">
@@ -345,9 +329,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $60.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular">$60.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -355,17 +337,13 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd class="price__compare">
-                                                         <s class="price-item price-item--regular">
-                                                         $64.00
-                                                         </s>
+                                                         <s class="price-item price-item--regular">$64.00</s>
                                                       </dd>
                                                       <dt>
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $60.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$60.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -374,8 +352,7 @@
                                                          <span></span>
                                                          <span aria-hidden="true">/</span>
                                                          <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                         <span>
-                                                         </span>
+                                                         <span></span>
                                                       </dd>
                                                    </small>
                                                 </dl>
@@ -422,16 +399,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Royaloak Bell Table"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -517,9 +493,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $60.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular">$60.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -527,16 +501,13 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd class="price__compare">
-                                                         <s class="price-item price-item--regular">
-                                                         </s>
+                                                         <s class="price-item price-item--regular"></s>
                                                       </dd>
                                                       <dt>
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $60.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$60.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -545,8 +516,7 @@
                                                          <span></span>
                                                          <span aria-hidden="true">/</span>
                                                          <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                         <span>
-                                                         </span>
+                                                         <span></span>
                                                       </dd>
                                                    </small>
                                                 </dl>
@@ -593,16 +563,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -688,9 +657,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $50.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular">$50.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -705,9 +672,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $50.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$50.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -860,9 +825,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $40.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular">$40.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -870,17 +833,13 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd class="price__compare">
-                                                         <s class="price-item price-item--regular">
-                                                         $45.00
-                                                         </s>
+                                                         <s class="price-item price-item--regular">$45.00</s>
                                                       </dd>
                                                       <dt>
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $40.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$40.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -889,8 +848,7 @@
                                                          <span></span>
                                                          <span aria-hidden="true">/</span>
                                                          <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                         <span>
-                                                         </span>
+                                                         <span></span>
                                                       </dd>
                                                    </small>
                                                 </dl>
@@ -937,16 +895,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HP LP3065"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -1035,9 +992,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $30.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular"> $30.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -1045,17 +1000,13 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd class="price__compare">
-                                                         <s class="price-item price-item--regular">
-                                                         $32.00
-                                                         </s>
+                                                         <s class="price-item price-item--regular">$32.00</s>
                                                       </dd>
                                                       <dt>
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $30.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$30.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -1064,8 +1015,7 @@
                                                          <span></span>
                                                          <span aria-hidden="true">/</span>
                                                          <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                         <span>
-                                                         </span>
+                                                         <span></span>
                                                       </dd>
                                                    </small>
                                                 </dl>
@@ -1112,16 +1062,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Digital Smart Watch"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -1207,9 +1156,7 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--regular">
-                                                         $40.00
-                                                         </span>
+                                                         <span class="price-item price-item--regular"> $40.00</span>
                                                       </dd>
                                                    </div>
                                                    <div class="price__sale">
@@ -1217,16 +1164,13 @@
                                                          <span class="visually-hidden visually-hidden--inline">Regular price</span>
                                                       </dt>
                                                       <dd class="price__compare">
-                                                         <s class="price-item price-item--regular">
-                                                         </s>
+                                                         <s class="price-item price-item--regular"></s>
                                                       </dd>
                                                       <dt>
                                                          <span class="visually-hidden visually-hidden--inline">Sale price</span>
                                                       </dt>
                                                       <dd >
-                                                         <span class="price-item price-item--sale">
-                                                         $40.00
-                                                         </span>
+                                                         <span class="price-item price-item--sale">$40.00</span>
                                                       </dd>
                                                    </div>
                                                    <small class="unit-price caption hidden">
@@ -1235,8 +1179,7 @@
                                                          <span></span>
                                                          <span aria-hidden="true">/</span>
                                                          <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                         <span>
-                                                         </span>
+                                                         <span></span>
                                                       </dd>
                                                    </small>
                                                 </dl>
@@ -1283,16 +1226,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Canon EOS 5D"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                                 <span class="outstock-overlay">Sold out</span>
                                              </a>
@@ -1455,16 +1397,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -1658,16 +1599,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Airtight Fod Storage"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -1833,16 +1773,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Airtight Food Storage"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                                 <span class="outstock-overlay">Sold out</span>
                                              </a>
@@ -2005,16 +1944,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Cinema 30"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -2180,16 +2118,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Speaker New"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -2351,16 +2288,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Canon EOS 5D"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                                 <span class="outstock-overlay">Sold out</span>
                                              </a>
@@ -2523,16 +2459,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -2694,16 +2629,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -2865,16 +2799,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Laptop"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -3068,16 +3001,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="IPhoneXS"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -3239,16 +3171,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Speaker New"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -3410,16 +3341,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Headphone Beats"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -3585,16 +3515,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Canon EOS 5D"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                                 <span class="outstock-overlay">Sold out</span>
                                              </a>
@@ -3757,16 +3686,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Digital Smart Watch"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <span class="mobile-review">
@@ -3928,16 +3856,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Forzza Vincent"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                                 <span class="outstock-overlay">Sold out</span>
                                              </a>
@@ -4101,16 +4028,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HTC Touch HD"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -4276,16 +4202,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="images/images_165x.png 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_533x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Cinema 30"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                              <div class="product-flags ">
@@ -6118,8 +6043,7 @@
                                                    </div>
                                                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 product-img">
                                                       <a href="products/customizable-debet.html" class="full-unstyled-link">
-                                                         <div class="media media--transparent media--square media--hover-effect"
-                                                            >
+                                                         <div class="media media--transparent media--square media--hover-effect">
                                                             <img
                                                                data-src="{{ asset('assets/images/10.png') }}"
                                                                sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -6127,8 +6051,7 @@
                                                                loading="lazy"
                                                                class="grid-view-item__image motion-reduce lazyload"
                                                                width="1000"
-                                                               height="1000"
-                                                               >
+                                                               height="1000">
                                                          </div>
                                                       </a>
                                                    </div>
@@ -6335,16 +6258,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Home Sparkle Wall"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -6504,16 +6426,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Royaloak Bell Table"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -6672,16 +6593,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -6840,16 +6760,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Forzza Vincent"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7009,16 +6928,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HP LP3065"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7180,16 +7098,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Digital Smart Watch"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7348,16 +7265,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Canon EOS 5D"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7516,16 +7432,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Customizable Debet"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7684,16 +7599,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="HTC Touch HD"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -7853,16 +7767,15 @@
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  ><img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
+                                                                  height="1000">
+                                                                  <img srcset="{{ asset('assets/images/tv_165x.png') }} 165w,{{ asset('assets/images/tv_360x.png') }} 360w,{{ asset('assets/images/tv_533x.png') }} 533w,{{ asset('assets/images/tv_720x.png') }} 720w,{{ asset('assets/images/tv_940x.png') }} 940w,{{ asset('assets/images/tv_1000x.png') }} 1000w"
                                                                   data-src="{{ asset('assets/images/tv_720x.png') }}"
                                                                   sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                   alt="Airtight Fod Storage"
                                                                   loading="lazy"
                                                                   class="motion-reduce lazyload"
                                                                   width="1000"
-                                                                  height="1000"
-                                                                  >
+                                                                  height="1000">
                                                             </div>
                                                          </a>
                                                       </div>
@@ -8302,16 +8215,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Home Sparkle Wall"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -8471,16 +8383,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Royaloak Bell Table"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -8639,16 +8550,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -8809,16 +8719,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Forzza Vincent"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -8978,16 +8887,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HP LP3065"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9147,16 +9055,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Digital Smart Watch"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9317,16 +9224,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Canon EOS 5D"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9485,16 +9391,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9653,16 +9558,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HTC Touch HD"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9824,16 +9728,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Airtight Fod Storage"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -9993,16 +9896,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Cinema 30"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -10162,16 +10064,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Speaker New"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -10352,16 +10253,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="IPhoneXS"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -10520,16 +10420,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Speaker New"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -10688,16 +10587,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Headphone Beats"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -10859,16 +10757,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Canon EOS 5D"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11027,16 +10924,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Digital Smart Watch"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11195,16 +11091,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Forzza Vincent"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11366,16 +11261,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HTC Touch HD"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11535,16 +11429,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Cinema 30"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11704,16 +11597,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Airtight Fod Storage"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -11875,16 +11767,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="The new IPhone"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12044,16 +11935,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Customizable Debet"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12212,16 +12102,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Refrigerator Set"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12402,16 +12291,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Headphone Beats"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12571,16 +12459,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HTC Touch HD"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12740,16 +12627,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="HP LP3065"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -12911,16 +12797,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Apple Cinema 30"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -13080,16 +12965,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="The new IPhone"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -13249,16 +13133,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Forzza Vincent"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -13420,16 +13303,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Home Sparkle Wall"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
@@ -13589,16 +13471,15 @@
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      ><img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
+                                                      height="1000">
+                                                      <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
                                                       data-src="{{ asset('assets/images/image_720x.png') }}"
                                                       sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                       alt="Airtight Fod Storage"
                                                       loading="lazy"
                                                       class="motion-reduce lazyload"
                                                       width="1000"
-                                                      height="1000"
-                                                      >
+                                                      height="1000">
                                                 </div>
                                              </a>
                                           </div>
