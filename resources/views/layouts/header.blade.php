@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Home</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="{{ asset('assets/css/includes.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/base.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -812,7 +813,7 @@
                          <li class="category">
                             <span class="float-xs-right hidden-lg-up">
                             </span>
-                            <a href="pages/about-us.html" class="dropdown-item">
+                            <a href="about" class="dropdown-item">
                                <h3 class="title">Aboutus</h3>
                             </a>
                          </li>
@@ -834,22 +835,22 @@
                          <div id="header_ishiheaderlinks">
                             <ul class="bullet large hidden-xl-down">
                                <li>
-                                  <a href="pages/about-us.html" title="About us">
+                                  <a href="/about" title="About us">
                                   About us
                                   </a>
                                </li>
                                <li>
-                                  <a href="collections.html" title="Collection">
+                                  <a href="collections" title="Collection">
                                   Collection
                                   </a>
                                </li>
                                <li>
-                                  <a href="pages/contact.html" title="Contact">
+                                  <a href="contact" title="Contact">
                                   Contact
                                   </a>
                                </li>
                                <li>
-                                  <a href="blogs/electronic.html" title="Blog">
+                                  <a href="blogs" title="Blog">
                                   Blog
                                   </a>
                                </li>
@@ -873,7 +874,7 @@
                                         </li>
                                         <li>
                                            <a href="collections/computer.html" title="Category">
-                                           Category
+                                           Category 
                                            </a>
                                      </ul>
                                   </div>
@@ -895,16 +896,16 @@
                                <h4 class="small-title">Menu</h4>
                                <ul id="small-container" class="bullet small toggle-dropdown">
                                   <li>
-                                     <a href="pages/about-us.html">About us</a>
+                                     <a href="about">About us</a>
                                   </li>
                                   <li>
-                                     <a href="collections.html">Collection</a>
+                                     <a href="collections">Collection</a>
                                   </li>
                                   <li>
-                                     <a href="pages/contact.html">Contact</a>
+                                     <a href="contact">Contact</a>
                                   </li>
                                   <li>
-                                     <a href="blogs/electronic.html">Blog</a>
+                                     <a href="blogs">Blog</a>
                                   </li>
                                   <li>
                                      <a href="collections/computer.html">Shop</a>

@@ -23,3 +23,12 @@ Route::get('collections', function () {
 Route::get('collections-all', function () {
     return view('collection-all');
 });
+Route::get('about', function () {
+    return view('about-us');
+});
+Route::get('contact', function () {
+    return view('contact');
+});
+Route::get('blogs', function () {
+    return view('blog');
+});
