@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('collections', function () {
     return view('collection');
 });
+
+Route::get('categories', 'WebController@all_categories')->name('categories');
+Route::get('category-ajax/{id}', 'WebController@categories_by_category')->name('category-ajax');

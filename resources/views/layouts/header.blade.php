@@ -90,7 +90,7 @@
                    </div>
                    <div class="user_info">
                       <div class="userinfo-title clearfix" data-toggle="popover" aria-expanded="false" data-href="#user-notification">
-                         Account 
+                         Account
                       </div>
                       <div id="user-notification" class="toggle-dropdown">
                          <!-- <link href="//cdn.shopify.com/s/files/1/0250/3793/0580/t/3/assets/page-account.css?v=160686326329420194631645791721" rel="stylesheet" type="text/css" media="all"> -->
@@ -101,13 +101,13 @@
                                </h2>
                                <form method="post" action="/account/login" id="customer_login">
                                   <input type="hidden" name="form_type" value="customer_login"><input type="hidden" name="utf8" value="✓">
-                                  <div class="field">        
+                                  <div class="field">
                                      <input type="email" name="customer[email]" id="CustomerEmail" autocomplete="email" autocorrect="off" autocapitalize="off" placeholder="Email">
                                      <label for="CustomerEmail">
                                      Email
                                      </label>
                                   </div>
-                                  <div class="field">          
+                                  <div class="field">
                                      <input type="password" value="" name="customer[password]" id="CustomerPassword" autocomplete="current-password" placeholder="Password">
                                      <label for="CustomerPassword">
                                      Password
@@ -147,7 +147,7 @@
                                </h2>
                                <form method="post" action="/account" id="create_customer" accept-charset="UTF-8" novalidate="novalidate">
                                   <input type="hidden" name="form_type" value="create_customer"><input type="hidden" name="utf8" value="✓">
-                                  <div class="field">      
+                                  <div class="field">
                                      <input type="text" name="customer[first_name]" id="RegisterForm-FirstName" autocomplete="given-name" placeholder="First name">
                                      <label for="RegisterForm-FirstName">
                                      First name
@@ -159,13 +159,13 @@
                                      Last name
                                      </label>
                                   </div>
-                                  <div class="field">      
+                                  <div class="field">
                                      <input type="email" name="customer[email]" id="RegisterForm-email" spellcheck="false" autocapitalize="off" autocomplete="email" aria-required="true" placeholder="Email">
                                      <label for="RegisterForm-email">
                                      Email
                                      </label>
                                   </div>
-                                  <div class="field">     
+                                  <div class="field">
                                      <input type="password" name="customer[password]" id="RegisterForm-password" aria-required="true" placeholder="Password">
                                      <label for="RegisterForm-password">
                                      Password
@@ -191,12 +191,12 @@
                    <h1 class="h2 header__logo" itemscope="" itemtype="http://schema.org/Organization">
                       <div class="hidden-lg-down">
                          <a href="/" itemprop="url" class="header__logo-image ">
-                         <img class="hidden-lg-down" src="{{ asset('assets/images/logo.png') }}" alt="Techayo Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;width: 175px;"> 
+                         <img class="hidden-lg-down" src="{{ asset('assets/images/logo.png') }}" alt="Techayo Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;width: 175px;">
                          </a>
                       </div>
                       <div class="hidden-lg-up">
-                         <a href="/" itemprop="url" class="header__logo-image">  
-                         <img class="hidden-lg-up" src="{{ asset('assets/images/logo.png') }}" alt="Techayo Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;"> 
+                         <a href="/" itemprop="url" class="header__logo-image">
+                         <img class="hidden-lg-up" src="{{ asset('assets/images/logo.png') }}" alt="Techayo Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;">
                          </a>
                       </div>
                    </h1>
@@ -364,7 +364,7 @@
                             </span>
                             <a href="collections/electronics.html" class="dropdown-item">
                                <h3 class="title">Electronic</h3>
-                               <span class="new"> NEW</span>
+                               {{-- <span class="new"> NEW</span> --}}
                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
                                </svg>
@@ -388,22 +388,6 @@
                                               <a href="collections/mobile.html" class="dropdown-item">Cases & Covers</a>
                                            </li>
                                            <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Android Mobiles</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Windows Mobiles</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Printers & Ink</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Camcorders</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Android Mobiles</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/speaker.html" class="dropdown-item">Wearable Devices</a>
                                            </li>
                                         </ul>
                                      </div>
@@ -427,21 +411,6 @@
                                            <li class="category">
                                               <a href="collections/mobile.html" class="dropdown-item">Wearable Devices</a>
                                            </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Smart watches</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Action Camera </a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item"> Smart Phones</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/electronics.html" class="dropdown-item">Wearable Devices</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/speaker.html" class="dropdown-item">Smart Speaker</a>
-                                           </li>
                                         </ul>
                                      </div>
                                   </li>
@@ -464,19 +433,10 @@
                                            <li class="category">
                                               <a href="collections/computer.html" class="dropdown-item">Internet Devices</a>
                                            </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Laptop Bags</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">External Hard Disks</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Printers & Ink</a>
-                                           </li>
                                         </ul>
                                      </div>
                                   </li>
-                                  <li class="sub-category product_container hidden-lg-down">
+                                  {{-- <li class="sub-category product_container hidden-lg-down">
                                      <a href="products/canon-eos-5d.html" class="dropdown-item dropdown-submenu">
                                         <h3 class="inner-title">Special Product</h3>
                                      </a>
@@ -520,23 +480,6 @@
                                                              </span>
                                                           </dd>
                                                        </div>
-                                                       <div class="price__sale">
-                                                          <dt class="price__compare">
-                                                             <span class="visually-hidden visually-hidden--inline">Regular price</span>
-                                                          </dt>
-                                                          <dd class="price__compare">
-                                                             <s class="price-item price-item--regular">
-                                                             </s>
-                                                          </dd>
-                                                          <dt>
-                                                             <span class="visually-hidden visually-hidden--inline">Sale price</span>
-                                                          </dt>
-                                                          <dd >
-                                                             <span class="price-item price-item--sale">
-                                                             $30.00
-                                                             </span>
-                                                          </dd>
-                                                       </div>
                                                        <small class="unit-price caption hidden">
                                                           <dt class="visually-hidden">Unit price</dt>
                                                           <dd >
@@ -553,12 +496,12 @@
                                            </div>
                                         </div>
                                      </div>
-                                  </li>
+                                  </li> --}}
                                </ul>
                                <div class="img-container">
                                   <div class="col-xs-6 imagecontainer1">
                                      <!-- <a href="collections/speaker.html" class="link"> -->
-                                     <!-- <img 
+                                     <!-- <img
                                         class="feature-row__image lazyload"
                                         data-src="//cdn.shopify.com/s/files/1/0250/3793/0580/files/Drop-Down-2.png?v=1558432816"
                                         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
@@ -569,7 +512,7 @@
                                   </div>
                                   <div class="col-xs-6 imagecontainer2">
                                      <!-- <a href="collections/mobile.html" class="link"> -->
-                                     <!-- <img 
+                                     <!-- <img
                                         class="feature-row__image lazyload"
                                         data-src="//cdn.shopify.com/s/files/1/0250/3793/0580/files/Drop-Down.png?v=1558432808"
                                         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
@@ -598,7 +541,7 @@
                             </span>
                             <a href="collections/computer.html" class="dropdown-item">
                                <h3 class="title">Accessories</h3>
-                               <span class="sale">SALE</span>
+                               {{-- <span class="sale">SALE</span> --}}
                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
                                </svg>
@@ -624,15 +567,6 @@
                                            <li class="category">
                                               <a href="collections/mobile.html" class="dropdown-item">Power Banks</a>
                                            </li>
-                                           <li class="category">
-                                              <a href="collections/speaker.html" class="dropdown-item">Headphones</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Windows Mobiles</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Cases & Covers</a>
-                                           </li>
                                         </ul>
                                      </div>
                                   </li>
@@ -654,15 +588,6 @@
                                            </li>
                                            <li class="category">
                                               <a href="collections/computer.html" class="dropdown-item">Internet Devices</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Laptop Bags</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">External Hard Disks</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Printers & Ink</a>
                                            </li>
                                         </ul>
                                      </div>
@@ -794,15 +719,6 @@
                                            <li class="category">
                                               <a href="pages/contact.html" class="dropdown-item">Contact</a>
                                            </li>
-                                           <li class="category">
-                                              <a href="pages/wishlist.html" class="dropdown-item">Wishlist</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="blogs/electronic.html" class="dropdown-item">Blog</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="abcd.html" class="dropdown-item">404</a>
-                                           </li>
                                         </ul>
                                      </div>
                                   </li>
@@ -835,45 +751,35 @@
                             <ul class="bullet large hidden-xl-down">
                                <li>
                                   <a href="pages/about-us.html" title="About us">
-                                  About us
+                                  Home
                                   </a>
                                </li>
                                <li>
                                   <a href="collections.html" title="Collection">
-                                  Collection
+                                  All Brands
                                   </a>
                                </li>
                                <li>
                                   <a href="pages/contact.html" title="Contact">
-                                  Contact
+                                  Discounted Products
                                   </a>
                                </li>
                                <li>
                                   <a href="blogs/electronic.html" title="Blog">
-                                  Blog
+                                  All Sellers
                                   </a>
                                </li>
                                <li>
-                                  <a href="collections/computer.html" title="Shop">
-                                  Shop
-                                  </a>
-                               </li>
-                               <li>
-                                  <a href="collections/mobile.html" title="Services">
-                                  Services
-                                  </a>
-                               </li>
-                               <li>
-                                  <a class="viewmore" href="javascript:void(0)" title="Product"> View More
+                                  <a class="viewmore" href="javascript:void(0)" title="Product"> Seller Zone
                                   </a>
                                   <div class="headerlink-dropdown">
                                      <ul>
                                         <li>
-                                           <a href="collections/electronics.html" title="Product">Product</a>
+                                           <a href="collections/electronics.html" title="Product">Become a Seller</a>
                                         </li>
                                         <li>
                                            <a href="collections/computer.html" title="Category">
-                                           Category
+                                           Seller Login
                                            </a>
                                      </ul>
                                   </div>
@@ -925,7 +831,7 @@
                    </div>
                 </div>
              </div>
-             <div id="shopify-section-Ishi_offer" class="shopify-section shopify-section">
+             {{-- <div id="shopify-section-Ishi_offer" class="shopify-section shopify-section">
                 <div id="ishioffersblock">
                    <div class="typed"></div>
                 </div>
@@ -944,14 +850,14 @@
                    <span>FLAT 10% OFF ALL PURCHASE</span>
                    </a>
                 </div>
-             </div>
+             </div> --}}
              <script type="text/javascript">
-                $(document).ready(function () { 
+                $(document).ready(function () {
                   var list = new Array();
                   $('.offerstitle').each(function(i, obj) {
                       list.push($(this).html());
                   });
-              
+
                   var myoffer = $('.offerstitle').length;
                   if(myoffer != 0){
                     var typed = new Typed('.typed', {

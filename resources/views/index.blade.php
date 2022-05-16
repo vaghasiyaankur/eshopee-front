@@ -76,7 +76,7 @@
       </style>
    </head>
    <body class="template-index">
-      
+
     @include('layouts.header')
 
 
@@ -84,10 +84,10 @@
          <div class="ishislider">
             <div class="slideshow-block">
                <div class="ishislideshow-carousel ishislideshow-carousel-template--14217818308692__16289212707c98911d owl-carousel slider-with-options owl-theme logo-bar"
-                  data-small="1" 
-                  data-mobile="1" 
-                  data-tablet="1" 
-                  data-laptop="1"  
+                  data-small="1"
+                  data-mobile="1"
+                  data-tablet="1"
+                  data-laptop="1"
                   data-desktop="1"
                   data-autoplaytimeout="5000"
                   data-autoplay="true"
@@ -98,7 +98,7 @@
                   <div class="slideshow__item" >
                      <a href="collections/new_electronic.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
-                           <img 
+                           <img
                               src="{{ asset ('assets/images/slide-196a9.jpg') }}"
                               alt="Slider Image">
                            <div class="page-width">
@@ -119,7 +119,7 @@
                   <div class="slideshow__item" >
                      <a href="collections/speaker.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
                         <div class="slideshow__link" >
-                           <img 
+                           <img
                               src="{{ asset ('assets/images/slide-296a9.jpg') }}"
                               alt="Slider Image">
                            <div class="page-width">
@@ -177,7 +177,7 @@
             <div class="row">
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
-                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/speaker.html" style="padding-bottom: 56.75675675675675%;">             
+                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/speaker.html" style="padding-bottom: 56.75675675675675%;">
                      <img class="lazyload"
                         data-src="{{ asset('assets/images/Banner-1.png') }}"
                         alt="Banner Image">
@@ -186,7 +186,7 @@
                </div>
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
-                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/special_electronic.html" style="padding-bottom: 56.75675675675675%;">             
+                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/special_electronic.html" style="padding-bottom: 56.75675675675675%;">
                      <img class="lazyload"
                         data-src="{{ asset('assets/images/Banner-2.png') }}"
                         alt="Banner Image">
@@ -195,7 +195,7 @@
                </div>
                <div class="ishithreebanner-container col-md-4 col-sm-4 col-xs-12">
                   <div class="image-container">
-                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/new_electronic.html" style="padding-bottom: 56.75675675675675%;">             
+                     <a class="media ishi-customhover-fadeinrotate scale" href="collections/new_electronic.html" style="padding-bottom: 56.75675675675675%;">
                      <img class="lazyload"
                         data-src="{{ asset('assets/images/Banner-3.png') }}"
                         alt="Banner Image">
@@ -224,9 +224,10 @@
                   </div>
                   <div class="ishi-featured-product-tab">
                      <ul class="ishi-product-tabs nav ishi-product-nav-tabs tab-id">
-                        <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
-                        <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-href="#tab-2-template--14217818308692__162935800064a32fb5">Featured</a></li>
+                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-href="#tab-2-template--14217818308692__162935800064a32fb5">Featured</a></li>
+                         <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Selling</a></li>
+                        <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Rated</a></li>
                      </ul>
                      <div class="ishi-product-tab-content">
                         <div id="tab-1-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade active">
@@ -5207,10 +5208,10 @@
                            <h2>OUR TESTIMONIAL</h2>
                         </div>
                         <div class="ishitestimonials-carousel ishitestimonials-carousel owl-carousel slider-with-options owl-theme"
-                           data-small="1" 
-                           data-mobile="1" 
-                           data-tablet="1" 
-                           data-laptop="1"  
+                           data-small="1"
+                           data-mobile="1"
+                           data-tablet="1"
+                           data-laptop="1"
                            data-desktop="1"
                            data-margin="30"
                            data-autoplay="false"
@@ -5219,7 +5220,7 @@
                            data-loop="true">
                            <div class="ishitestimonials-container">
                               <div class="testimonial-img">
-                                 <img 
+                                 <img
                                     class="lazyload"
                                     data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T12bd8.png?v=1558077878"
                                     alt="Image">
@@ -5248,7 +5249,7 @@
                            </div>
                            <div class="ishitestimonials-container">
                               <div class="testimonial-img">
-                                 <img 
+                                 <img
                                     class="lazyload"
                                     data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T3d365.png?v=1558077888"
                                     alt="Image">
@@ -5277,7 +5278,7 @@
                            </div>
                            <div class="ishitestimonials-container">
                               <div class="testimonial-img">
-                                 <img 
+                                 <img
                                     class="lazyload"
                                     data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T2b3fe.png?v=1558077883"
                                     alt="Image">
@@ -5470,7 +5471,7 @@
                               <div class="image-container">
                                  <a class="media ishi-customhover-fadeinrotate3D "
                                     href="collections/computer.html"
-                                    style="padding-bottom: 133.33333333333334%;">                  
+                                    style="padding-bottom: 133.33333333333334%;">
                                  <img class="lazyload"
                                     data-src="{{ asset('assets/images/Multi-Banner-1.png') }}"
                                     alt="Banner Image">
@@ -5554,10 +5555,10 @@
                            </div>
                         </div>
                         <div class="smartblog-carousel smartblog-carousel-template--14217818308692__164603800170f9fa89 owl-carousel slider-with-options owl-theme"
-                           data-small="1" 
-                           data-mobile="2" 
-                           data-tablet="2" 
-                           data-laptop="1"  
+                           data-small="1"
+                           data-mobile="2"
+                           data-tablet="2"
+                           data-laptop="1"
                            data-desktop="1"
                            data-margin="30"
                            data-rewind="true"
@@ -5576,12 +5577,12 @@
                                     </a>
                                  </div>
                                  <div class="article__grid-meta article__grid-meta--has-image blog_content">
-                                    <div class="smartbloginfo">                        
+                                    <div class="smartbloginfo">
                                        <span class="article__date blog_date">
                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                        <span class="date">
                                        <span class="day_date">18</span>
-                                       <span class="day_month">May</span>                            
+                                       <span class="day_month">May</span>
                                        <span class="day_year">2019</span>
                                        </span>
                                        </span>
@@ -5611,12 +5612,12 @@
                                     </a>
                                  </div>
                                  <div class="article__grid-meta article__grid-meta--has-image blog_content">
-                                    <div class="smartbloginfo">                        
+                                    <div class="smartbloginfo">
                                        <span class="article__date blog_date">
                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                        <span class="date">
                                        <span class="day_date">18</span>
-                                       <span class="day_month">May</span>                            
+                                       <span class="day_month">May</span>
                                        <span class="day_year">2019</span>
                                        </span>
                                        </span>
@@ -5646,12 +5647,12 @@
                                     </a>
                                  </div>
                                  <div class="article__grid-meta article__grid-meta--has-image blog_content">
-                                    <div class="smartbloginfo">                        
+                                    <div class="smartbloginfo">
                                        <span class="article__date blog_date">
                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                        <span class="date">
                                        <span class="day_date">18</span>
-                                       <span class="day_month">May</span>                            
+                                       <span class="day_month">May</span>
                                        <span class="day_year">2019</span>
                                        </span>
                                        </span>
@@ -5678,10 +5679,10 @@
                         <h2>SHOP BY CATEGORIES</h2>
                      </div>
                      <div class="ishi-linkblock ishi-linkblock owl-carousel slider-with-options owl-theme"
-                        data-small="1" 
-                        data-mobile="2" 
-                        data-tablet="2" 
-                        data-laptop="1"  
+                        data-small="1"
+                        data-mobile="2"
+                        data-tablet="2"
+                        data-laptop="1"
                         data-desktop="1"
                         data-rewind="true"
                         data-autoplay="false"
@@ -5696,7 +5697,7 @@
                                     <img class="lazyload"
                                        data-src="{{ asset('assets/images/c4.png') }}"
                                        alt="Image">
-                                    </a>   
+                                    </a>
                                  </div>
                                  <div class="link-list col-lg-6 col-md-8 col-sm-6 col-xs-6">
                                     <h3 class="text-container">
@@ -5723,7 +5724,7 @@
                                     <img class="lazyload"
                                        data-src="{{ asset('assets/images/c4.png') }}"
                                        alt="Image">
-                                    </a>   
+                                    </a>
                                  </div>
                                  <div class="link-list col-lg-6 col-md-8 col-sm-6 col-xs-6">
                                     <h3 class="text-container">
@@ -5752,7 +5753,7 @@
                                     <img class="lazyload"
                                        data-src="{{ asset('assets/images/c4.png') }}"
                                        alt="Image">
-                                    </a>   
+                                    </a>
                                  </div>
                                  <div class="link-list col-lg-6 col-md-8 col-sm-6 col-xs-6">
                                     <h3 class="text-container">
@@ -5779,7 +5780,7 @@
                                     <img class="lazyload"
                                        data-src="{{ asset('assets/images/c4.png') }}"
                                        alt="Image">
-                                    </a>   
+                                    </a>
                                  </div>
                                  <div class="link-list col-lg-6 col-md-8 col-sm-6 col-xs-6">
                                     <h3 class="text-container">
@@ -5880,7 +5881,7 @@
                                                       <a href="products/3pc-airtight-food-storage-containers.html" class="full-unstyled-link">
                                                          <div class="media media--transparent media--square media--hover-effect"
                                                             >
-                                                            <img 
+                                                            <img
                                                                data-src="{{ asset('assets/images/1.png') }}"
                                                                sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                alt="Airtight Fod Storage"
@@ -6119,7 +6120,7 @@
                                                       <a href="products/customizable-debet.html" class="full-unstyled-link">
                                                          <div class="media media--transparent media--square media--hover-effect"
                                                             >
-                                                            <img 
+                                                            <img
                                                                data-src="{{ asset('assets/images/10.png') }}"
                                                                sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                                                                alt="Customizable Debet"
@@ -6310,10 +6311,10 @@
                                           <h2>SPECIAL PRODUCT</h2>
                                        </div>
                                        <div class="slider-with-options owl-carousel owl-theme grid grid--uniform grid--view-items products-display"
-                                          data-small="1" 
-                                          data-mobile="1" 
-                                          data-tablet="2" 
-                                          data-laptop="1"  
+                                          data-small="1"
+                                          data-mobile="1"
+                                          data-tablet="2"
+                                          data-laptop="1"
                                           data-desktop="1"
                                           data-margin= "30"
                                           data-dots="true"
@@ -8020,10 +8021,10 @@
                <div class="manufacture-main col-lg-9 col-sm-12">
                   <div class="manufacture-block">
                      <div class="manufacture-carousel manufacture-carousel-template--14217818308692__164603800170f9fa89 owl-carousel slider-with-options owl-theme logo-bar"
-                        data-small="2" 
-                        data-mobile="3" 
-                        data-tablet="3" 
-                        data-laptop="3"  
+                        data-small="2"
+                        data-mobile="3"
+                        data-tablet="3"
+                        data-laptop="3"
                         data-desktop="4"
                         data-autoplaytimeout="5000"
                         data-autoplay="false"
@@ -8066,82 +8067,82 @@
             </div>
          </div>
          </div>
-         <script type="text/javascript">  
+         <script type="text/javascript">
             jQuery(document).ready(function() {
-              
-                
-                
+
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
+
+
                   $('.specialdealcarousel-template--14217818308692__164603800170f9fa89 .productdeal').each(function() {
                      setCountDownTimer($(this).data("dealcounter"), this.querySelector(".countdowncontainer"));
                   });
-                
-                
-            
+
+
+
                 $(".specialdealcarousel-template--14217818308692__164603800170f9fa89").owlCarousel({
                   nav: true, // Show next and prev buttons
                   navText: [
@@ -8169,20 +8170,20 @@
                       items:1
                     },
                     1400:{
-                      
+
                         items:1
-                      
+
                     }
                   }
                 });
-            
+
                 jQuery(document).on('click','.specialdealcarousel-template--14217818308692__164603800170f9fa89 .product-single__thumbnails-item',function () {
-                   
+
                    $(this).parents('.card--product').find('.product-img .grid-view-item__image').attr('src',$(this).data('large-img'));
-            
+
                 });
-                
-             
+
+
             });
          </script>
          <style type="text/css">
@@ -8192,7 +8193,7 @@
             #shopify-section-template--14217818308692__164603800170f9fa89 .manufacture-main .manufacture-block{
             background: #f6f7f8;
             }
-            @media (max-width: 767px) { 
+            @media (max-width: 767px) {
             #shopify-section-template--14217818308692__164603800170f9fa89{
             margin-bottom: 30px;
             }
@@ -8254,9 +8255,9 @@
             @media (max-width: 991px) {
             #shopify-section-template--14217818308692__164602263914a92ef3 .parallax-text-center{
             width: 100%;
-            }  
             }
-            @media (max-width: 767px) { 
+            }
+            @media (max-width: 767px) {
             #shopify-section-template--14217818308692__164602263914a92ef3 .parallax-block{
             padding: 60px 0;
             }
@@ -8277,10 +8278,10 @@
                               <h2>NEW PRODUCT</h2>
                            </div>
                            <div class="slider-with-options owl-carousel owl-theme grid grid--uniform grid--view-items products-display"
-                              data-small="1" 
-                              data-mobile="1" 
-                              data-tablet="2" 
-                              data-laptop="1"  
+                              data-small="1"
+                              data-mobile="1"
+                              data-tablet="2"
+                              data-laptop="1"
                               data-desktop="1"
                               data-margin= "30"
                               data-dots="false"
@@ -10327,10 +10328,10 @@
                               <h2>SPECIAL PRODUCT</h2>
                            </div>
                            <div class="slider-with-options owl-carousel owl-theme grid grid--uniform grid--view-items products-display"
-                              data-small="1" 
-                              data-mobile="1" 
-                              data-tablet="2" 
-                              data-laptop="1"  
+                              data-small="1"
+                              data-mobile="1"
+                              data-tablet="2"
+                              data-laptop="1"
                               data-desktop="1"
                               data-margin= "30"
                               data-dots="false"
@@ -12377,10 +12378,10 @@
                               <h2>BEST SELLERS</h2>
                            </div>
                            <div class="slider-with-options owl-carousel owl-theme grid grid--uniform grid--view-items products-display"
-                              data-small="1" 
-                              data-mobile="1" 
-                              data-tablet="2" 
-                              data-laptop="1"  
+                              data-small="1"
+                              data-mobile="1"
+                              data-tablet="2"
+                              data-laptop="1"
                               data-desktop="1"
                               data-margin= "30"
                               data-dots="false"
@@ -13751,7 +13752,7 @@
                </div>
             </div>
          </div>
-         <style type="text/css"> 
+         <style type="text/css">
             #shopify-section-template--14217818308692__1646022643666ab48c {
             margin-bottom: 0px;
             }
@@ -13761,7 +13762,7 @@
             }
             }
          </style>
-      </section> 
-      
+      </section>
+
       @include('layouts.footer')
 </html>

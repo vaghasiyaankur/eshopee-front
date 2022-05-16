@@ -167,7 +167,7 @@
                                   <div class="content">
                                      <a href="mailto:info@gmail.com">
                                      info@gmail.com
-                                     </a>  
+                                     </a>
                                   </div>
                                </li>
                             </ul>
@@ -274,7 +274,7 @@
        </div>
     </div>
  </footer>
- <div id="shopify-section-newsletterpopup" class="shopify-section newsletter-popup">
+ {{-- <div id="shopify-section-newsletterpopup" class="shopify-section newsletter-popup">
     <div class="newsletter-popup-overlay"> </div>
     <ishimodal-dialog id="PopupModal-newsletter" class="product-popup-modal toggle-dropdown">
        <div role="dialog" aria-label="PopupModal-newsletter" aria-modal="true" class="newsletter-popup-modal__content" tabindex="-1" data-timeout="4">
@@ -356,7 +356,7 @@
                       </div>
                       <div class="dont-show">
                          <label>
-                         <input class="dono-show-check" type="checkbox"> 
+                         <input class="dono-show-check" type="checkbox">
                          <span>Don&#39;t show again</span>
                          </label>
                       </div>
@@ -397,7 +397,7 @@
           }
        }
     </style>
- </div>
+ </div> --}}
  <div id="shopify-section-cookieconsent" class="shopify-section cookie-consent">
     <div id="cookieconsent" style="display:none" class="position-left">
        <div class="message">
@@ -459,7 +459,7 @@
     <script type="text/javascript">
        jQuery(document).ready(function ($) {
          if(getTheCookie("cookieconsent") != "true") {
-           setTimeout(function() {    
+           setTimeout(function() {
              $("#cookieconsent").show();
            },3000);
          }
