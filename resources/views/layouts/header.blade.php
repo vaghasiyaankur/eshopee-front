@@ -346,7 +346,7 @@
                    <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown" role="navigation">
                       <div class="desktop-menu-block expand-more hidden-sm-down" data-toggle="dropdown"  role="button">
                          <h2 class="home-title hidden-lg-down">
-                            ALL CATEGORIES
+                            CATEGORIES
                          </h2>
                          <div class="wrapper">
                             <div class="line-menu half start"></div>
@@ -355,7 +355,8 @@
                          </div>
                       </div>
                       <ul class="top-menu dropdown-menu" id="top-menu">
-                         <li class="category">
+                        @foreach($categories as $category)
+                        <li class="category">
                             <span class="float-xs-right hidden-lg-up">
                                <span data-href="#_n_child-one1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false">
                                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
@@ -364,7 +365,7 @@
                                </span>
                             </span>
                             <a href="collections/electronics.html" class="dropdown-item">
-                               <h3 class="title">Electronic</h3>
+                               <h3 class="title">{{Str::limit($category->name, 30)}}</h3>
                                {{-- <span class="new"> NEW</span> --}}
                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
@@ -437,309 +438,26 @@
                                         </ul>
                                      </div>
                                   </li>
-                                  {{-- <li class="sub-category product_container hidden-lg-down">
-                                     <a href="products/canon-eos-5d.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Special Product</h3>
-                                     </a>
-                                     <div class="grid__item grid__item--Ishi_megamenu">
-                                        <div class="card-wrapper">
-                                           <div class="card card--product" tabindex="-1">
-                                              <div class="card__inner">
-                                                 <a href="products/canon-eos-5d.html" class="full-unstyled-link">
-                                                    <div class="media media--transparent media--square media--hover-effect"
-                                                       >
-                                                       <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
-                                                          data-src="{{ asset('assets/images/image_533x.png') }}"
-                                                          sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                                                          alt="Canon EOS 5D"
-                                                          loading="lazy"
-                                                          class="motion-reduce lazyload"
-                                                          width="1000"
-                                                          height="1000"
-                                                          >
-                                                    </div>
-                                                 </a>
-                                              </div>
-                                           </div>
-                                           <div class="card-information">
-                                              <div class="card-information__wrapper">
-                                                 <span class="card-information__text h5">
-                                                 <a href="products/canon-eos-5d.html" class="full-unstyled-link">
-                                                 Canon EOS 5D
-                                                 </a>
-                                                 </span>
-                                                 <span class="caption-large light"></span>
-                                                 <div class="price  price--sold-out ">
-                                                    <dl>
-                                                       <div class="price__regular">
-                                                          <dt>
-                                                             <span class="visually-hidden visually-hidden--inline">Regular price</span>
-                                                          </dt>
-                                                          <dd >
-                                                             <span class="price-item price-item--regular">
-                                                             $30.00
-                                                             </span>
-                                                          </dd>
-                                                       </div>
-                                                       <small class="unit-price caption hidden">
-                                                          <dt class="visually-hidden">Unit price</dt>
-                                                          <dd >
-                                                             <span></span>
-                                                             <span aria-hidden="true">/</span>
-                                                             <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                             <span>
-                                                             </span>
-                                                          </dd>
-                                                       </small>
-                                                    </dl>
-                                                 </div>
-                                              </div>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </li> --}}
+
                                </ul>
                                <div class="img-container">
                                   <div class="col-xs-6 imagecontainer1">
-                                     <!-- <a href="collections/speaker.html" class="link"> -->
-                                     <!-- <img
-                                        class="feature-row__image lazyload"
-                                        data-src="//cdn.shopify.com/s/files/1/0250/3793/0580/files/Drop-Down-2.png?v=1558432816"
-                                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                                        data-aspectratio="3.0733333333333333"
-                                        data-sizes="auto"
-                                        alt="Menu Banner Image">
-                                        </a> -->
+
                                   </div>
                                   <div class="col-xs-6 imagecontainer2">
-                                     <!-- <a href="collections/mobile.html" class="link"> -->
-                                     <!-- <img
-                                        class="feature-row__image lazyload"
-                                        data-src="//cdn.shopify.com/s/files/1/0250/3793/0580/files/Drop-Down.png?v=1558432808"
-                                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                                        data-aspectratio="3.0733333333333333"
-                                        data-sizes="auto"
-                                        alt="Menu Banner Image">
-                                        </a> -->
+
                                   </div>
                                </div>
                             </div>
-                         </li>
-                         <li class="category">
+                        </li>
+                        @endforeach
+                         {{-- <li class="category">
                             <span class="float-xs-right hidden-lg-up">
                             </span>
                             <a href="blogs/electronic.html" class="dropdown-item">
                                <h3 class="title">Blogs</h3>
                             </a>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                               <span data-href="#_n_child-one3" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false">
-                                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                  </svg>
-                               </span>
-                            </span>
-                            <a href="collections/computer.html" class="dropdown-item">
-                               <h3 class="title">Accessories</h3>
-                               {{-- <span class="sale">SALE</span> --}}
-                               <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                               </svg>
-                            </a>
-                            <div class="popover sub-menu js-sub-menu ishi-collapse desktop-collapse" id="_n_child-one3">
-                               <ul id="top-menu-child" class="top-menu mainmenu-dropdown panel-group">
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-one3" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
-                                        </span>
-                                     </span>
-                                     <a href="collections/new_electronic.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Mobile Accessories</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-one3">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Mobile Cases</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Power Banks</a>
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-two3" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
-                                        </span>
-                                     </span>
-                                     <a href="collections/new_electronic.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Computer Accessories</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-two3">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Pendrives</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Internet Devices</a>
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-                                  <li class="sub-category product_container hidden-lg-down">
-                                     <a href="products/digital-smart-watch.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Latest Product</h3>
-                                     </a>
-                                     <div class="grid__item grid__item--Ishi_megamenu">
-                                        <div class="card-wrapper">
-                                           <div class="card card--product" tabindex="-1">
-                                              <div class="card__inner">
-                                                 <a href="products/digital-smart-watch.html" class="full-unstyled-link">
-                                                    <div class="media media--transparent media--square media--hover-effect"
-                                                       >
-                                                       <img srcset="{{ asset('assets/images/image_165x.png') }} 165w,{{ asset('assets/images/image_360x.png') }} 360w,{{ asset('assets/images/image_533x.png') }} 533w,{{ asset('assets/images/image_720x.png') }} 720w,{{ asset('assets/images/image_940x.png') }} 940w,{{ asset('assets/images/image_1000x.png') }} 1000w"
-                                                          data-src="{{ asset('assets/images/image_533x.png') }}"
-                                                          sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                                                          alt="Digital Smart Watch"
-                                                          loading="lazy"
-                                                          class="motion-reduce lazyload"
-                                                          width="1000"
-                                                          height="1000"
-                                                          >
-                                                    </div>
-                                                 </a>
-                                              </div>
-                                           </div>
-                                           <div class="card-information">
-                                              <div class="card-information__wrapper">
-                                                 <span class="card-information__text h5">
-                                                 <a href="products/digital-smart-watch.html" class="full-unstyled-link">
-                                                 Digital Smart Watch
-                                                 </a>
-                                                 </span>
-                                                 <span class="caption-large light"></span>
-                                                 <div class="price ">
-                                                    <dl>
-                                                       <div class="price__regular">
-                                                          <dt>
-                                                             <span class="visually-hidden visually-hidden--inline">Regular price</span>
-                                                          </dt>
-                                                          <dd >
-                                                             <span class="price-item price-item--regular">
-                                                             $40.00
-                                                             </span>
-                                                          </dd>
-                                                       </div>
-                                                       <div class="price__sale">
-                                                          <dt class="price__compare">
-                                                             <span class="visually-hidden visually-hidden--inline">Regular price</span>
-                                                          </dt>
-                                                          <dd class="price__compare">
-                                                             <s class="price-item price-item--regular">
-                                                             </s>
-                                                          </dd>
-                                                          <dt>
-                                                             <span class="visually-hidden visually-hidden--inline">Sale price</span>
-                                                          </dt>
-                                                          <dd >
-                                                             <span class="price-item price-item--sale">
-                                                             $40.00
-                                                             </span>
-                                                          </dd>
-                                                       </div>
-                                                       <small class="unit-price caption hidden">
-                                                          <dt class="visually-hidden">Unit price</dt>
-                                                          <dd >
-                                                             <span></span>
-                                                             <span aria-hidden="true">/</span>
-                                                             <span class="visually-hidden">&nbsp;per&nbsp;</span>
-                                                             <span>
-                                                             </span>
-                                                          </dd>
-                                                       </small>
-                                                    </dl>
-                                                 </div>
-                                              </div>
-                                           </div>
-                                        </div>
-                                     </div>
-                                  </li>
-                               </ul>
-                            </div>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                            </span>
-                            <a href="collections.html" class="dropdown-item">
-                               <h3 class="title">Collection</h3>
-                            </a>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                            </span>
-                            <a href="pages/contact.html" class="dropdown-item">
-                               <h3 class="title">Contact</h3>
-                            </a>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                               <span data-href="#_n_child-one6" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false">
-                                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                  </svg>
-                               </span>
-                            </span>
-                            <a href="pages/contact.html" class="dropdown-item">
-                               <h3 class="title">Included Pages</h3>
-                               <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                               </svg>
-                            </a>
-                            <div class="popover sub-menu js-sub-menu ishi-collapse desktop-collapse" id="_n_child-one6">
-                               <ul id="top-menu-child" class="top-menu mainmenu-dropdown panel-group">
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-one6" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
-                                        </span>
-                                     </span>
-                                     <a href="#" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">page</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-one6">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="pages/contact.html" class="dropdown-item">Contact</a>
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-                               </ul>
-                            </div>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                            </span>
-                            <a href="about" class="dropdown-item">
-                               <h3 class="title">Aboutus</h3>
-                            </a>
-                         </li>
-                         <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                            </span>
-                            <a href="pages/faq.html" class="dropdown-item">
-                               <h3 class="title">FAQs</h3>
-                            </a>
-                         </li>
+                         </li> --}}
                       </ul>
                    </div>
                 </div>
@@ -751,23 +469,23 @@
                          <div id="header_ishiheaderlinks">
                             <ul class="bullet large hidden-xl-down">
                                <li>
-                                  <a href="pages/about-us.html" title="About us">
+                                  <a href="{{ route('home') }}" title="About us">
                                   Home
                                   </a>
                                </li>
                                <li>
-                                  <a href="collections.html" title="Collection">
-                                  All Brands
+                                  <a href="{{ route('aboutus') }}" title="Collection">
+                                  About Us
                                   </a>
                                </li>
                                <li>
-                                  <a href="pages/contact.html" title="Contact">
-                                  Discounted Products
+                                  <a href="{{ route('blogs') }}" title="Contact">
+                                  Blogs
                                   </a>
                                </li>
                                <li>
-                                  <a href="blogs/electronic.html" title="Blog">
-                                  All Sellers
+                                  <a href="{{ route('contact') }}" title="Blog">
+                                  Contact Us
                                   </a>
                                </li>
                                <li>

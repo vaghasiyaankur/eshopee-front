@@ -79,7 +79,6 @@
 
     @include('layouts.header')
 
-
       <section id="shopify-section-template--14217818308692__16289212707c98911d" class="shopify-section ishi-slider-section">
          <div class="ishislider">
             <div class="slideshow-block">
@@ -93,44 +92,10 @@
                   data-autoplay="true"
                   data-nav="true"
                   data-dots="true"
-                  data-loop="true"
-                  >
-                  <div class="slideshow__item" >
-                     <a href="collections/new_electronic.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
-                        <div class="slideshow__link" >
-                           <img src="{{ asset ('assets/images/slide-196a9.jpg') }}" alt="Slider Image">
-                           <div class="page-width">
-                              <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-left" style="text-align:left">
-                                 <div class="sub-title" style="color:#ce1d76"> Silver Aluminum</div>
-                                 <div class="main-title" style="color:#222222">Apple Watch</div>
-                                 <div class="desc" style="color:#666666;background-color:#ffffff;border-color:#eeeeee;">White Spoart Band &amp; 30% Off First Order</div>
-                                 <div class="slider-btn">
-                                    <div class="btn">SHOP NOW</div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="slideshow__item" >
-                     <a href="collections/speaker.html" class="media"  style="padding-bottom: 15.606936416184972%;padding-top: 15.606936416184972%;">
-                        <div class="slideshow__link" >
-                           <img src="{{ asset ('assets/images/slide-296a9.jpg') }}" alt="Slider Image">
-                           <div class="page-width">
-                              <div class="slider-content col-md-5 col-sm-6 col-xs-5 slider-content-right" style="text-align:right">
-                                 <div class="sub-title" style="color:#ce1d76"> Silver Aluminum</div>
-                                 <div class="main-title" style="color:#222222">Smart Watch</div>
-                                 <div class="desc" style="color:#666666;background-color:#ffffff;border-color:#eeeeee;">
-                                    White Spoart Band &amp; 30% Off First Order
-                                 </div>
-                                 <div class="slider-btn">
-                                    <div class="btn">SHOP NOW</div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
+                  data-loop="true">
+
+                  @include('web-views.partials._home-top-slider')
+
                </div>
                <div class="ishislideshow-space">
                   <div class="slideshow__item" style="padding-bottom:17%;padding-top: 17%;">
@@ -221,6 +186,31 @@
                         <div id="tab-1-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade active">
                            <slider-component class="slider-mobile-gutter">
                               <ul class="product-list grid product-width-4 row slider slider--tablet grid--peek" role="list">
+                                  {{-- <li class="grid__item col-lg-3 col-md-6 col-sm-6 col-xs-6 slider__slide">
+                                            @if(count($featured_products) > 0)
+                                            <section class="container rtl">
+                                                <div class="section-header">
+                                                    <div class="feature_header">
+                                                        <span class="for-feature-title">featured_products</span>
+                                                    </div>
+                                                    <div>
+                                                        <a class="btn btn-outline-accent btn-sm viw-btn-a"
+                                                        href="{{route('products',['data_from'=>'featured','page'=>1])}}">
+                                                            view_all
+                                                            <i class="czi-arrow-{{Session::get('direction') === "rtl" ? 'left mr-1 ml-n1' : 'right ml-1 mr-n1'}}"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-2 mb-3">
+                                                    @foreach($featured_products as $product)
+                                                        <div class="col-xl-2 col-sm-3 col-6" style="margin-bottom: 10px">
+                                                            @include('web-views.partials._single-product',['product'=>$product])
+                                                    @endforeach
+                                                </div>
+                                            </section>
+                                        @endif
+
+                                  </li> --}}
                                  <li class="grid__item col-lg-3 col-md-6 col-sm-6 col-xs-6 slider__slide">
                                     <div class="card-wrapper">
                                        <div class="card card--product" tabindex="-1">
@@ -385,7 +375,7 @@
                                        </div>
                                     </div>
                                  </li>
-                                 <li class="grid__item col-lg-3 col-md-6 col-sm-6 col-xs-6 slider__slide">
+                                  <li class="grid__item col-lg-3 col-md-6 col-sm-6 col-xs-6 slider__slide">
                                     <div class="card-wrapper">
                                        <div class="card card--product" tabindex="-1">
                                           <div class="card__inner ">
