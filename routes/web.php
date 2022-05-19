@@ -30,6 +30,7 @@ Route::get('category-ajax/{id}', [WebController::class,'categories_by_category']
 
 Route::get('/product/{slug}', [WebController::class,'product'])->name('product');
 Route::get('products', [WebController::class,'products'])->name('products');
+Route::post('category-products', [WebController::class,'category_products'])->name('category_products');
 Route::get('orderDetails', [WebController::class,'orderdetails'])->name('orderdetails');
 Route::get('discounted-products', [WebController::class,'discounted_products'])->name('discounted-products');
 

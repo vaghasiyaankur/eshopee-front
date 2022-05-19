@@ -19,7 +19,31 @@ class WebController extends Controller
 {
     public function home(){
         $categories = DB::table('categories')->where('position', 0)->take(12)->get();
-        return view('index',compact('categories'));
+        //feature products finding based on selling
+        $featured_products = Product::with(['reviews'])->active()
+            ->where('featured', 1)
+            ->withCount(['order_details'])->orderBy('order_details_count', 'DESC')
+            ->take(8)
+            ->get();
+        //end
+        $latest_products = Product::with(['reviews'])->active()->orderBy('id', 'desc')->take(8)->get();
+
+        $bestSellProduct = OrderDetail::with('product.reviews')
+            ->whereHas('product', function ($query) {
+                $query->active();
+            })
+            ->select('product_id', DB::raw('COUNT(product_id) as count'))
+            ->groupBy('product_id')
+            ->orderBy("count", 'desc')
+            ->take(4)
+            ->get();
+
+            if ($bestSellProduct->count() == 0) {
+                $bestSellProduct = $latest_products;
+            }
+
+
+        return view('index',compact('categories','featured_products','latest_products'));
     }
 
     public function about_us(){
@@ -188,6 +212,23 @@ class WebController extends Controller
         }
 
         return view('web-views.products.view', compact('products', 'data'), $data);
+    }
+
+
+    public function category_products(Request $request){
+
+        $request['sort_by'] == null ? $request['sort_by'] == 'latest' : $request['sort_by'];
+
+        $porduct_data = Product::active()->with(['reviews']);
+
+        if ($request['data_from'] == 'featured') {
+            $query = Product::with(['reviews'])->active()->where('featured', 1);
+        }
+
+        if ($request['data_from'] == 'latest') {
+            $query = $porduct_data->orderBy('id', 'DESC');
+        }
+
     }
 
 }

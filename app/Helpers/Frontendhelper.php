@@ -1,6 +1,6 @@
 <?php
 
-namespace App\helpers;
+namespace App\Helpers;
 use DB;
 use App\Model\BusinessSetting;
 use Session;
@@ -79,6 +79,18 @@ class Frontendhelper
         }
 
         return $config;
+    }
+
+    function currency_symbol()
+    {
+        Frontendhelper::currency_load();
+        if (\session()->has('currency_symbol')) {
+            $symbol = \session('currency_symbol');
+        } else {
+            $system_default_currency_info = \session('system_default_currency_info');
+            $symbol = $system_default_currency_info->symbol;
+        }
+        return $symbol;
     }
 
     public static function get_settings($object, $type)
@@ -187,7 +199,6 @@ class Frontendhelper
 
 
 
-
     function translate($key)
     {
         $local = Frontendhelper::default_lang();
@@ -206,15 +217,18 @@ class Frontendhelper
         }
         return $result;
     }
-        function currency_symbol()
-        {
-            Frontendhelper::currency_load();
-            if (\session()->has('currency_symbol')) {
-                $symbol = \session('currency_symbol');
-            } else {
-                $system_default_currency_info = \session('system_default_currency_info');
-                $symbol = $system_default_currency_info->symbol;
-            }
-            return $symbol;
+
+}
+if (!function_exists('currency_symbol')) {
+    function currency_symbol()
+    {
+        Frontendhelper::currency_load();
+        if (\session()->has('currency_symbol')) {
+            $symbol = \session('currency_symbol');
+        } else {
+            $system_default_currency_info = \session('system_default_currency_info');
+            $symbol = $system_default_currency_info->symbol;
         }
+        return $symbol;
+    }
 }

@@ -27,7 +27,7 @@
         <div class="d-flex d-block center-div element-center" style="cursor: pointer">
             <a href="{{route('product',$product->slug)}}">
                 <img src="{{\App\Helpers\Frontendhelper::product_image_path('thumbnail')}}/{{$product['thumbnail']}}"
-                     onerror="this.src='{{asset('public/assets/front-end/img/image-place-holder.png')}}'"
+                     onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
                      style="width: 100%;max-height: 215px!important;">
             </a>
         </div>
@@ -47,7 +47,7 @@
                 <label class="badge-style">( {{$product->reviews_count}} )</label>
             </span>
         </div>
-        <div style="position: relative;" class="product-title1">
+        <div style="position: relative;text-align:center;" class="product-title1">
             <a href="{{route('product',$product->slug)}}">
                 {{ Str::limit($product['name'], 25) }}
             </a>
