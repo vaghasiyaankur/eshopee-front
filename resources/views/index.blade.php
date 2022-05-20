@@ -4,11 +4,13 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="csrf-token" content="{{ csrf_token() }}" />
       <title>Home</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="{{ asset('assets/css/includes.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/base.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <style>
          :root {
@@ -178,11 +180,11 @@
                   <div class="ishi-featured-product-tab" id="products">
                      <ul class="ishi-product-tabs nav ishi-product-nav-tabs tab-id">
                          <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="featured" data-href="#tab-2-template--14217818308692__162935800064a32fb5">Featured</a></li>
-                         <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-type="new_arrival" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
+                         <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-type="latest" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="top_selling" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Selling</a></li>
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="top_rated" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Rated</a></li>
                      </ul>
-                     <div class="ishi-product-tab-content">
+                     <div class="ishi-product-tab-content" id="change_product">
                          @include('web-views.partials.category_products')
                         <div id="tab-2-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade">
                            <slider-component class="slider-mobile-gutter">
@@ -12247,16 +12249,39 @@
          </style>
       </section>
       <script>
-          $(document).on('click','.ishi-product-nav-link',function(){
-              var type = $(this).data('type');
-              $.ajax({
-                url: "{{ route('category_products') }}",
-                data: {type : type},
-                success: function(result){
-                $('#products').replaceWith(result);
-                }
+        //   $(document).on('click','.ishi-product-nav-link',function(){
+        //       console.log('hello');
+        //       var type = $(this).data('type');
+        //       $.ajax({
+        //         url: "{{ route('category_products') }}",
+        //         data: {type : type},
+        //         success: function(result){
+        //         $('#products').replaceWith(result);
+        //         }
+        //     });
+        //   });
+        //
+
+        $(document).ready(function(){
+            $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+            $(document).on('click','.ishi-product-nav-link',function(){
+                var type = $(this).data('type');
+                // console.log(type)
+                $.ajax({
+                    type:'POST',
+                    url:"{{ route('category_products') }}",
+                    data:{type:type},
+                    success:function(data){
+                        // console.log(data)
+                        $('#change_product').replaceWith(data);
+                    }
+                });
             });
-          });
+        });
       </script>
       @include('layouts.footer')
 </html>

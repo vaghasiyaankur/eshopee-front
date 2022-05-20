@@ -18,6 +18,14 @@ use App\Helpers\Frontendhelper;
 class WebController extends Controller
 {
     public function home(){
+
+        $home_categories = Category::where('home_status', true)->get();
+        $home_categories->map(function ($data) {
+            $data['products'] = Product::active()
+                /*->where('category_ids', 'like', "%{$data['id']}%")*/
+                ->whereJsonContains('category_ids', ["id" => (string)$data['id']])
+                ->inRandomOrder()->take(12)->get();
+        });
         $categories = DB::table('categories')->where('position', 0)->take(12)->get();
         //feature products finding based on selling
         $featured_products = Product::with(['reviews'])->active()
@@ -38,12 +46,27 @@ class WebController extends Controller
             ->take(4)
             ->get();
 
+            //Top rated
+        $topRated = Review::with('product')
+        ->whereHas('product', function ($query) {
+            $query->active();
+        })
+        ->select('product_id', DB::raw('AVG(rating) as count'))
+        ->groupBy('product_id')
+        ->orderBy("count", 'desc')
+        ->take(4)
+        ->get();
+
             if ($bestSellProduct->count() == 0) {
                 $bestSellProduct = $latest_products;
             }
 
+            if ($topRated->count() == 0) {
+                $topRated = $bestSellProduct;
+            }
 
-        return view('index',compact('categories','featured_products','latest_products'));
+
+        return view('index',compact('categories','featured_products','latest_products','home_categories','topRated'));
     }
 
     public function about_us(){
@@ -217,18 +240,25 @@ class WebController extends Controller
 
     public function category_products(Request $request){
 
+
         $request['sort_by'] == null ? $request['sort_by'] == 'latest' : $request['sort_by'];
 
         $porduct_data = Product::active()->with(['reviews']);
 
-        if ($request['data_from'] == 'featured') {
-            $query = Product::with(['reviews'])->active()->where('featured', 1);
+        if ($request['type'] == 'featured') {
+            // dd($request);
+            $query = Product::orderBy('id','DESC')->get();
         }
 
-        if ($request['data_from'] == 'latest') {
-            $query = $porduct_data->orderBy('id', 'DESC');
+        if ($request['type'] == 'latest') {
+            $query = $porduct_data->orderBy('id', 'DESC')->get();
         }
+        // $data = $query;
 
+        return $query;
+
+
+        return response()->json(['success' => $query], 200);
     }
 
 }
