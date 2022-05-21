@@ -250,15 +250,16 @@ class WebController extends Controller
             $query = Product::orderBy('id','DESC')->get();
         }
 
+
         if ($request['type'] == 'latest') {
             $query = $porduct_data->orderBy('id', 'DESC')->get();
         }
-        // $data = $query;
 
-        return $query;
+        $featured_products = $query;
 
+        $response = view('web-views.partials.category_products', compact('featured_products'))->render();
 
-        return response()->json(['success' => $query], 200);
+        return response()->json(['success' => $response], 200);
     }
 
 }

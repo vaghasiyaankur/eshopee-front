@@ -179,8 +179,8 @@
                   </div>
                   <div class="ishi-featured-product-tab" id="products">
                      <ul class="ishi-product-tabs nav ishi-product-nav-tabs tab-id">
-                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="featured" data-href="#tab-2-template--14217818308692__162935800064a32fb5">Featured</a></li>
-                         <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-type="latest" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
+                         <li class="ishi-product-tab-item active"><a class="ishi-product-nav-link" data-type="featured" data-href="#tab-2-template--14217818308692__162935800064a32fb5">Featured</a></li>
+                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="latest" data-href="#tab-1-template--14217818308692__162935800064a32fb5">New Arrival</a></li>
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="top_selling" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Selling</a></li>
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="top_rated" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Rated</a></li>
                      </ul>
@@ -12277,7 +12277,7 @@
                     data:{type:type},
                     success:function(data){
                         // console.log(data)
-                        $('#change_product').replaceWith(data);
+                        $('#change_product').html(data);
                     }
                 });
             });
