@@ -185,6 +185,10 @@
                         <li class="ishi-product-tab-item"><a class="ishi-product-nav-link" data-type="top_rated" data-href="#tab-3-template--14217818308692__162935800064a32fb5">Top Rated</a></li>
                      </ul>
                      <div class="ishi-product-tab-content" id="change_product">
+                        <div id="tab-1-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade active">
+                            <slider-component class="slider-mobile-gutter">
+
+
                          @include('web-views.partials.category_products')
                         <div id="tab-2-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade">
                            <slider-component class="slider-mobile-gutter">
@@ -3727,6 +3731,34 @@
                               </div>
                            </slider-component>
                         </div>
+                        <div class="slider-buttons no-js-hidden">
+                            <div class="slider-counter caption">
+                                <span class="slider-counter--current">1</span>
+                                <span aria-hidden="true"> / </span>
+                                <span class="visually-hidden">of</span>
+                                <span class="slider-counter--total"></span>
+                            </div>
+                            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left">
+                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right">
+                                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                        </div>
+                        </slider-component>
+                        <div class="center view-all-btn">
+                        <a href="collections/computer.html"
+                            class="button"
+                            aria-label="View all products in the  collection"
+                            >
+                        View all
+                        </a>
+                        </div>
+                    </div>
                      </div>
                   </div>
                </div>
@@ -12276,8 +12308,9 @@
                     url:"{{ route('category_products') }}",
                     data:{type:type},
                     success:function(data){
-                        // console.log(data)
-                        $('#change_product').html(data);
+                        $('#products_cat').replaceWith(data.success);
+                        $('.ishi-product-tab-item').addClass('active');
+                        $(this).parent('li.ishi-product-tab-item').addClass('active');
                     }
                 });
             });

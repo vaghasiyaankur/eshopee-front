@@ -66,7 +66,7 @@ class WebController extends Controller
             }
 
 
-        return view('index',compact('categories','featured_products','latest_products','home_categories','topRated'));
+        return view('index',compact('categories','featured_products','latest_products','home_categories','topRated','bestSellProduct'));
     }
 
     public function about_us(){
@@ -245,14 +245,21 @@ class WebController extends Controller
 
         $porduct_data = Product::active()->with(['reviews']);
 
+
         if ($request['type'] == 'featured') {
-            // dd($request);
-            $query = Product::orderBy('id','DESC')->get();
+            $query = $porduct_data->where('featured', 1)
+            ->withCount(['order_details'])->orderBy('order_details_count', 'DESC')
+            ->take(8)
+            ->get();
         }
-
-
         if ($request['type'] == 'latest') {
-            $query = $porduct_data->orderBy('id', 'DESC')->get();
+            $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
+        }
+        if ($request['type'] == 'top_rated') {
+            $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
+        }
+        if ($request['type'] == 'top_selling') {
+            $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
         }
 
         $featured_products = $query;

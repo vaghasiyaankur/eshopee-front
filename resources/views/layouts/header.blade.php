@@ -469,22 +469,22 @@
                          <div id="header_ishiheaderlinks">
                             <ul class="bullet large hidden-xl-down">
                                <li>
-                                  <a href="{{ route('home') }}" title="About us">
-                                  Home
-                                  </a>
-                               </li>
-                               <li>
-                                  <a href="{{ route('aboutus') }}" title="Collection">
+                                  <a href="{{ route('aboutus') }}" title="About us">
                                   About Us
                                   </a>
                                </li>
                                <li>
-                                  <a href="{{ route('blogs') }}" title="Contact">
+                                  <a href="{{ route('collection_all') }}" title="Collection">
+                                  Collection
+                                  </a>
+                               </li>
+                               <li>
+                                  <a href="{{ route('blogs') }}" title="Blog">
                                   Blogs
                                   </a>
                                </li>
                                <li>
-                                  <a href="{{ route('contact') }}" title="Blog">
+                                  <a href="{{ route('contact') }}" title="Contact">
                                   Contact Us
                                   </a>
                                </li>

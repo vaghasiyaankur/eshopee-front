@@ -37,7 +37,7 @@ Route::get('discounted-products', [WebController::class,'discounted_products'])-
 
 Route::get('collections-all', function () {
     return view('collection-all');
-});
+})->name('collection_all');
 
 Route::get('/about', [WebController::class,'about_us'])->name('aboutus');
 
