@@ -43,7 +43,7 @@ class WebController extends Controller
             ->select('product_id', DB::raw('COUNT(product_id) as count'))
             ->groupBy('product_id')
             ->orderBy("count", 'desc')
-            ->take(4)
+            ->take(8)
             ->get();
 
             //Top rated
@@ -54,7 +54,7 @@ class WebController extends Controller
         ->select('product_id', DB::raw('AVG(rating) as count'))
         ->groupBy('product_id')
         ->orderBy("count", 'desc')
-        ->take(4)
+        ->take(8)
         ->get();
 
             if ($bestSellProduct->count() == 0) {
@@ -92,7 +92,7 @@ class WebController extends Controller
     {
         $category = Category::with(['childes.childes'])->where('id', $id)->first();
         return response()->json([
-            'view' => view('web-views.categories', compact('category'))->render(),
+            'view' => view('web-views.partials._category-list-ajax', compact('category'))->render(),
         ]);
     }
     public function product($slug)
@@ -256,10 +256,26 @@ class WebController extends Controller
             $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
         }
         if ($request['type'] == 'top_rated') {
-            $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
+            $query = Review::with('product')
+            ->whereHas('product', function ($query) {
+                $query->active();
+            })
+            ->select('product_id', DB::raw('AVG(rating) as count'))
+            ->groupBy('product_id')
+            ->orderBy("count", 'desc')
+            ->take(8)
+            ->get();
         }
         if ($request['type'] == 'top_selling') {
-            $query = $porduct_data->orderBy('id', 'DESC')->take(8)->get();
+            $query = OrderDetail::with('product.reviews')
+            ->whereHas('product', function ($query) {
+                $query->active();
+            })
+            ->select('product_id', DB::raw('COUNT(product_id) as count'))
+            ->groupBy('product_id')
+            ->orderBy("count", 'desc')
+            ->take(8)
+            ->get();
         }
 
         $featured_products = $query;

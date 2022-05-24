@@ -11,9 +11,9 @@
                     <div class="card__inner ">
                         <a href="products/royaloak-bell-office-table.html" class="full-unstyled-link">
                             <div class="media media--transparent media--square media--hover-effect"
-                                data-href="{{route('product',$product->slug)}}">
+                                data-href="{{ $product->slug != null ? route('product',$product->slug) : route('product',$product->product->slug)}}">
                                     <a class="d-block {{Session::get('direction') === "rtl" ? 'ml-2' : 'mr-2'}}"
-                                        href="{{route('product',$product->slug)}}">
+                                        href="{{ $product->slug != null ? route('product',$product->slug) : route('product',$product->product->slug)}}">
                                         <img
                                                 onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
                                                 src="{{\App\Helpers\Frontendhelper::product_image_path('thumbnail')}}/{{$product['thumbnail']}}"
@@ -95,13 +95,13 @@
                         <div class="widget-product-meta" style="text-align: center;">
                             <span class="text-accent">
                                 <div style="position: relative;text-align:center;" class="product-title1">
-                                    <a href="{{route('product',$product->slug)}}" style="color:black;" >
+                                    <a href="{{ $product->slug != null ? route('product',$product->slug) : route('product',$product->product->slug)}}" style="color:black;" >
                                         {{ Str::limit($product['name'], 25) }}
                                     </a>
                                 </div>
-                                    {{\App\Helpers\Frontendhelper::currency_converter(
-                                    $product->unit_price-(\App\Helpers\Frontendhelper::get_product_discount($product,$product->unit_price))
-                                    )}}
+                                {{\App\Helpers\Frontendhelper::currency_converter(
+                                $product->unit_price-(\App\Helpers\Frontendhelper::get_product_discount($product,$product->unit_price))
+                                )}}
                                 @if($product->discount > 0)
                                     <strike style="font-size: 12px!important;color: grey!important;">
                                     {{\App\Helpers\Frontendhelper::currency_converter($product->unit_price)}}

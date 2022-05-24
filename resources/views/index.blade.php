@@ -190,6 +190,7 @@
 
 
                          @include('web-views.partials.category_products')
+
                         <div id="tab-2-template--14217818308692__162935800064a32fb5" class="ishi-product-tab-pane ishi-fade">
                            <slider-component class="slider-mobile-gutter">
                               <ul class="product-list grid product-width-4 row slider slider--tablet grid--peek" role="list">
@@ -3758,256 +3759,10 @@
                         View all
                         </a>
                         </div>
+                      </div>
                     </div>
-                     </div>
                   </div>
                </div>
-               <!-- <div class="testimonial-newsletter-social col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                  <div class="ishitestimonial">
-                     <div class="testimonial-width">
-                        <div class="section-header center">
-                           <h2>OUR TESTIMONIAL</h2>
-                        </div>
-                        <div class="ishitestimonials-carousel ishitestimonials-carousel owl-carousel slider-with-options owl-theme"
-                           data-small="1"
-                           data-mobile="1"
-                           data-tablet="1"
-                           data-laptop="1"
-                           data-desktop="1"
-                           data-margin="30"
-                           data-autoplay="false"
-                           data-nav="false"
-                           data-dots="true"
-                           data-loop="true">
-                           <div class="ishitestimonials-container">
-                              <div class="testimonial-img">
-                                 <img
-                                    class="lazyload"
-                                    data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T12bd8.png?v=1558077878"
-                                    alt="Image">
-                              </div>
-                              <div class="user-container">
-                                 <div class="quote">
-                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon" viewBox="0 0 35 35">
-                                       <svg x="0%" y="10%">
-                                          <path d="M0,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H0z"/>
-                                          <path d="M20,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H20z"/>
-                                       </svg>
-                                    </svg>
-                                 </div>
-                                 <div class="desc">
-                                    <h3 class="user-name">STEPHAN ROBOT</h3>
-                                    <div class="designation">
-                                       <h3 class="user-designation">Web Designer</h3>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="user-info">
-                                 <div class="user-description">
-                                    <p>Duis faucibus enim vitae nunc molestie, nec facilisis arcu pulvinar nullam mattisr nullam mattis.</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="ishitestimonials-container">
-                              <div class="testimonial-img">
-                                 <img
-                                    class="lazyload"
-                                    data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T3d365.png?v=1558077888"
-                                    alt="Image">
-                              </div>
-                              <div class="user-container">
-                                 <div class="quote">
-                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon" viewBox="0 0 35 35">
-                                       <svg x="0%" y="10%">
-                                          <path d="M0,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H0z"/>
-                                          <path d="M20,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H20z"/>
-                                       </svg>
-                                    </svg>
-                                 </div>
-                                 <div class="desc">
-                                    <h3 class="user-name">STEPHAN ROBOT</h3>
-                                    <div class="designation">
-                                       <h3 class="user-designation">Web Designer</h3>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="user-info">
-                                 <div class="user-description">
-                                    <p>Duis faucibus enim vitae nunc molestie, nec facilisis arcu pulvinar nullam mattisr nullam mattis.</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="ishitestimonials-container">
-                              <div class="testimonial-img">
-                                 <img
-                                    class="lazyload"
-                                    data-src="../cdn.shopify.com/s/files/1/0250/3793/0580/files/T2b3fe.png?v=1558077883"
-                                    alt="Image">
-                              </div>
-                              <div class="user-container">
-                                 <div class="quote">
-                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon" viewBox="0 0 35 35">
-                                       <svg x="0%" y="10%">
-                                          <path d="M0,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H0z"/>
-                                          <path d="M20,4v12h8c0,4.41-3.586,8-8,8v4c6.617,0,12-5.383,12-12V4H20z"/>
-                                       </svg>
-                                    </svg>
-                                 </div>
-                                 <div class="desc">
-                                    <h3 class="user-name">STEPHAN ROBOT</h3>
-                                    <div class="designation">
-                                       <h3 class="user-designation">Web Designer</h3>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="user-info">
-                                 <div class="user-description">
-                                    <p>Duis faucibus enim vitae nunc molestie, nec facilisis arcu pulvinar nullam mattisr nullam mattis.</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="block_newsletter_social">
-                     <div id="newsletter-container">
-                        <div id="newsletter">
-                           <h3 class="title_block">NEWSLETTER</h3>
-                           <div class="newsletter_text">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                                 <symbol id="mail" viewBox="0 0 700 700">
-                                    <title>mail</title>
-                                    <g>
-                                       <g>
-                                          <path d="M506.955,1.314c-3.119-1.78-6.955-1.75-10.045,0.078L313.656,109.756c-4.754,2.811-6.329,8.943-3.518,13.697
-                                             c2.81,4.753,8.942,6.328,13.697,3.518l131.482-77.749L210.411,303.335L88.603,266.069l158.965-94
-                                             c4.754-2.812,6.329-8.944,3.518-13.698c-2.81-4.753-8.943-6.33-13.697-3.518L58.91,260.392c-3.41,2.017-5.309,5.856-4.84,9.791
-                                             s3.216,7.221,7.004,8.38l145.469,44.504L270.72,439.88c0.067,0.121,0.136,0.223,0.207,0.314c1.071,1.786,2.676,3.245,4.678,4.087
-                                             c1.253,0.527,2.57,0.784,3.878,0.784c2.563,0,5.086-0.986,6.991-2.849l73.794-72.12l138.806,42.466
-                                             c0.96,0.293,1.945,0.438,2.925,0.438c2.116,0,4.206-0.672,5.948-1.961C510.496,409.153,512,406.17,512,403V10
-                                             C512,6.409,510.074,3.093,506.955,1.314z M271.265,329.23c-1.158,1.673-1.779,3.659-1.779,5.694v61.171l-43.823-79.765
-                                             l193.921-201.21L271.265,329.23z M289.486,411.309v-62.867l48.99,14.988L289.486,411.309z M492,389.483l-196.499-60.116
-                                             L492,45.704V389.483z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M164.423,347.577c-3.906-3.905-10.236-3.905-14.143,0l-93.352,93.352c-3.905,3.905-3.905,10.237,0,14.143
-                                             C58.882,457.024,61.441,458,64,458s5.118-0.976,7.071-2.929l93.352-93.352C168.328,357.815,168.328,351.483,164.423,347.577z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M40.071,471.928c-3.906-3.903-10.236-3.903-14.142,0.001l-23,23c-3.905,3.905-3.905,10.237,0,14.143
-                                             C4.882,511.024,7.441,512,10,512s5.118-0.977,7.071-2.929l23-23C43.976,482.166,43.976,475.834,40.071,471.928z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M142.649,494.34c-1.859-1.86-4.439-2.93-7.069-2.93c-2.641,0-5.21,1.07-7.07,2.93c-1.86,1.86-2.93,4.43-2.93,7.07
-                                             c0,2.63,1.069,5.21,2.93,7.07c1.86,1.86,4.44,2.93,7.07,2.93s5.21-1.07,7.069-2.93c1.86-1.86,2.931-4.44,2.931-7.07
-                                             C145.58,498.77,144.51,496.2,142.649,494.34z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M217.051,419.935c-3.903-3.905-10.233-3.905-14.142,0l-49.446,49.445c-3.905,3.905-3.905,10.237,0,14.142
-                                             c1.953,1.953,4.512,2.929,7.071,2.929s5.118-0.977,7.071-2.929l49.446-49.445C220.956,430.172,220.956,423.84,217.051,419.935z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M387.704,416.139c-3.906-3.904-10.236-3.904-14.142,0l-49.58,49.58c-3.905,3.905-3.905,10.237,0,14.143
-                                             c1.953,1.952,4.512,2.929,7.071,2.929s5.118-0.977,7.071-2.929l49.58-49.58C391.609,426.377,391.609,420.045,387.704,416.139z"/>
-                                       </g>
-                                    </g>
-                                    <g>
-                                       <g>
-                                          <path d="M283.5,136.31c-1.86-1.86-4.44-2.93-7.07-2.93s-5.21,1.07-7.07,2.93c-1.859,1.86-2.93,4.44-2.93,7.08
-                                             c0,2.63,1.07,5.2,2.93,7.06c1.86,1.87,4.44,2.93,7.07,2.93s5.21-1.06,7.07-2.93c1.859-1.86,2.93-4.43,2.93-7.06
-                                             C286.43,140.75,285.36,138.17,283.5,136.31z"/>
-                                       </g>
-                                    </g>
-                                 </symbol>
-                              </svg>
-                              <svg class="icon" viewBox="0 0 50 50">
-                                 <use xlink:href="#mail" x="10%" y="10%"></use>
-                              </svg>
-                              <h3 class="subtitle_block">Join Our Mailing List</h3>
-                           </div>
-                           <div class="newsletter_form">
-                              <div class="site-footer__newsletter col-lg-12">
-                                 <form method="post" action="https://techayo-ishi.myshopify.com/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8" class="footer__newsletter newsletter-form">
-                                    <input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
-                                    <div class="newsletter-form__field-wrapper">
-                                       <div class="field">
-                                          <input
-                                             id="NewsletterForm--template--14217818308692__162935800064a32fb5"
-                                             type="email"
-                                             name="contact[email]"
-                                             class="field__input"
-                                             value=""
-                                             aria-required="true"
-                                             autocorrect="off"
-                                             autocapitalize="off"
-                                             autocomplete="email"
-                                             placeholder="Your email"
-                                             required
-                                             >
-                                          <label class="field__label" for="NewsletterForm--template--14217818308692__162935800064a32fb5">
-                                          Your email
-                                          </label>
-                                       </div>
-                                    </div>
-                                    <button type="submit" class="button button--primary newsletter-form__button" name="commit" id="Subscribe">
-                                    <span class="hidden-sm-down">Subscribe</span>
-                                    <span class="hidden-sm-up">Go</span>
-                                    </button>
-                                 </form>
-                                 <div class="footer-social">
-                                    <ul class="footer__list-social list-unstyled list-social" role="list">
-                                       <li class="list-social__item facebook">
-                                          <a href="index.html" class="link link--text list-social__link">
-                                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                                          <span class="icon__-text">Facebook</span>
-                                          </a>
-                                       </li>
-                                       <li class="list-social__item instagram">
-                                          <a href="index.html" class="link link--text list-social__link">
-                                          <i class="fa fa-instagram" aria-hidden="true"></i>
-                                          <span class="icon__-text">Instagram</span>
-                                          </a>
-                                       </li>
-                                       <li class="list-social__item tiktok">
-                                          <a href="index.html" class="link link--text list-social__link">
-                                             <svg aria-hidden="true" focusable="false" role="presentation" class="icon " viewBox="0 0 18 18">
-                                                <svg x="6%" y="0%">
-                                                   <path d="M8.02 0H11s-.17 3.82 4.13 4.1v2.95s-2.3.14-4.13-1.26l.03 6.1a5.52 5.52 0 11-5.51-5.52h.77V9.4a2.5 2.5 0 101.76 2.4L8.02 0z" fill="currentColor"></path>
-                                                </svg>
-                                             </svg>
-                                             <span class="icon__-text">TikTok</span>
-                                          </a>
-                                       </li>
-                                       <li class="list-social__item snapchat">
-                                          <a href="index.html" class="link link--text list-social__link">
-                                          <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
-                                          <span class="icon__-text">Snapchat</span>
-                                          </a>
-                                       </li>
-                                       <li class="list-social__item vimeo">
-                                          <a href="index.html" class="link link--text list-social__link">
-                                          <i class="fa fa-vimeo" aria-hidden="true"></i>
-                                          <span class="icon__-text">Vimeo</span>
-                                          </a>
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                    </div>
-                </div> -->
             </div>
          </div>
          <style type="text/css">
@@ -12302,17 +12057,18 @@
         });
             $(document).on('click','.ishi-product-nav-link',function(){
                 var type = $(this).data('type');
+                $('.ishi-product-tab-item').removeClass('active');
+                $(this).parent('li.ishi-product-tab-item').addClass('active');
                 // console.log(type)
                 $.ajax({
                     type:'POST',
                     url:"{{ route('category_products') }}",
-                    data:{type:type},
+                    data:{token:'{{ csrf_field() }}',type:type},
                     success:function(data){
                         $('#products_cat').replaceWith(data.success);
-                        $('.ishi-product-tab-item').addClass('active');
-                        $(this).parent('li.ishi-product-tab-item').addClass('active');
                     }
                 });
+
             });
         });
       </script>
