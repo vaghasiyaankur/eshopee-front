@@ -11,6 +11,7 @@ use App\Model\Product;
 use App\Model\DealOfTheDay;
 use App\Model\Review;
 use App\Model\Brand;
+use App\Model\Shop;
 
 use App\Helpers\Frontendhelper;
 
@@ -104,7 +105,8 @@ class WebController extends Controller
             $relatedProducts = Product::with(['reviews'])->active()->where('category_ids', $product->category_ids)->where('id', '!=', $product->id)->limit(12)->get();
             $deal_of_the_day = DealOfTheDay::where('product_id', $product->id)->where('status', 1)->first();
 
-            return view('web-views.products.details', compact('product', 'countWishlist', 'countOrder', 'relatedProducts', 'deal_of_the_day'));
+            $categories = DB::table('categories')->where('position', 0)->take(12)->get();
+            return view('web-views.products.details', compact('product', 'countWishlist', 'countOrder', 'relatedProducts', 'deal_of_the_day','categories'));
         }
 
         Toastr::error(translate('not_found'));
@@ -114,7 +116,6 @@ class WebController extends Controller
     public function products(Request $request)
     {
         $request['sort_by'] == null ? $request['sort_by'] == 'latest' : $request['sort_by'];
-
         $porduct_data = Product::active()->with(['reviews']);
 
         if ($request['data_from'] == 'category') {
@@ -283,6 +284,121 @@ class WebController extends Controller
         $response = view('web-views.partials.category_products', compact('featured_products'))->render();
 
         return response()->json(['success' => $response], 200);
+    }
+
+    public function seller_shop(Request $request, $id)
+    {
+        $product_ids = Product::active()
+            ->when($id == 0, function ($query) {
+                return $query->where(['added_by' => 'admin']);
+            })
+            ->when($id != 0, function ($query) use ($id) {
+                return $query->where(['added_by' => 'seller'])
+                    ->where('user_id', $id);
+            })
+            ->pluck('id')->toArray();
+
+        $avg_rating = Review::whereIn('product_id', $product_ids)->avg('rating');
+        $total_review = Review::whereIn('product_id', $product_ids)->count();
+        $total_order = OrderDetail::whereIn('product_id', $product_ids)->groupBy('order_id')->count();
+
+        //finding category ids
+        $products = Product::whereIn('id', $product_ids)->paginate(12);
+
+        $category_info = [];
+        foreach ($products as $product) {
+            array_push($category_info, $product['category_ids']);
+        }
+
+        $category_info_decoded = [];
+        foreach ($category_info as $info) {
+            array_push($category_info_decoded, json_decode($info));
+        }
+
+        $category_ids = [];
+        foreach ($category_info_decoded as $decoded) {
+            foreach ($decoded as $info) {
+                array_push($category_ids, $info->id);
+            }
+        }
+
+        $categories = [];
+        foreach ($category_ids as $category_id) {
+            $category = Category::with(['childes.childes'])->where('position', 0)->find($category_id);
+            if ($category != null) {
+                array_push($categories, $category);
+            }
+        }
+        $categories = array_unique($categories);
+        //end
+
+        //products search
+        if ($request->product_name) {
+            $products = Product::active()
+                ->when($id == 0, function ($query) {
+                    return $query->where(['added_by' => 'admin']);
+                })
+                ->when($id != 0, function ($query) use ($id) {
+                    return $query->where(['added_by' => 'seller'])
+                        ->where('user_id', $id);
+                })
+                ->where('name', 'like', $request->product_name . '%')
+                ->paginate(12);
+        } elseif ($request->category_id) {
+            $products = Product::active()
+                ->when($id == 0, function ($query) {
+                    return $query->where(['added_by' => 'admin']);
+                })
+                ->when($id != 0, function ($query) use ($id) {
+                    return $query->where(['added_by' => 'seller'])
+                        ->where('user_id', $id);
+                })
+                ->whereJsonContains('category_ids', [
+                    ['id' => strval($request->category_id)],
+                ])->paginate(12);
+        }
+
+        if ($id == 0) {
+            $shop = [
+                'id' => 0,
+                'name' => Frontendhelper::get_business_settings('company_name'),
+            ];
+        } else {
+            $shop = Shop::where('seller_id', $id)->first();
+            if (isset($shop) == false) {
+                Toastr::error(translate('shop_does_not_exist'));
+                return back();
+            }
+        }
+
+        return view('web-views.shop-page', compact('products', 'shop', 'categories'))
+            ->with('seller_id', $id)
+            ->with('total_review', $total_review)
+            ->with('avg_rating', $avg_rating)
+            ->with('total_order', $total_order);
+    }
+
+    public function messages_store(Request $request)
+    {
+
+        if ($request->message == '') {
+            Toastr::warning('Type Something!');
+            return response()->json('type something!');
+        } else {
+            $message = $request->message;
+            DB::table('chattings')->insert([
+                'user_id'          => auth('customer')->id(),
+                'shop_id'          => $request->shop_id,
+                'seller_id'        => $request->seller_id,
+
+                'message'          => $request->message,
+                'sent_by_customer' => 1,
+                'seen_by_customer' => 0,
+                'created_at'       => now(),
+            ]);
+
+            return response()->json($message);
+        }
     }
 
 }

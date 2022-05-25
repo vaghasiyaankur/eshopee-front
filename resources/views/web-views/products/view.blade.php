@@ -1,4 +1,4 @@
-@extends('layouts.front-end.app')
+@extends('layouts.header')
 
 @section('title',ucfirst($data['data_from']).' products')
 

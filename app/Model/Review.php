@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Review extends Model
@@ -17,7 +17,7 @@ class Review extends Model
     ];
     public function user()
     {
-        return $this->hasOne('App\User', 'id', 'customer_id');
+        return $this->hasOne(User::class, 'id', 'customer_id');
     }
     public function product()
     {

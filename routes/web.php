@@ -35,6 +35,15 @@ Route::get('orderDetails', [WebController::class,'orderdetails'])->name('orderde
 Route::get('discounted-products', [WebController::class,'discounted_products'])->name('discounted-products');
 
 
+//sellerShop
+Route::get('shopView/{id}', 'WebController@seller_shop')->name('shopView');
+
+
+// Chatting start
+Route::post('messages-store', 'ChattingController@messages_store')->name('messages_store');
+// chatting end
+
+
 Route::get('collections-all', function () {
     return view('collection-all');
 })->name('collection_all');

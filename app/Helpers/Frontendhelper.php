@@ -197,6 +197,60 @@ class Frontendhelper
         return floatval($discount);
     }
 
+    public static function get_rating($reviews)
+    {
+        $rating5 = 0;
+        $rating4 = 0;
+        $rating3 = 0;
+        $rating2 = 0;
+        $rating1 = 0;
+        foreach ($reviews as $key => $review) {
+            if ($review->rating == 5) {
+                $rating5 += 1;
+            }
+            if ($review->rating == 4) {
+                $rating4 += 1;
+            }
+            if ($review->rating == 3) {
+                $rating3 += 1;
+            }
+            if ($review->rating == 2) {
+                $rating2 += 1;
+            }
+            if ($review->rating == 1) {
+                $rating1 += 1;
+            }
+        }
+        return [$rating5, $rating4, $rating3, $rating2, $rating1];
+    }
+
+    public static function get_price_range($product)
+    {
+        $lowest_price = $product->unit_price;
+        $highest_price = $product->unit_price;
+
+        foreach (json_decode($product->variation) as $key => $variation) {
+            if ($lowest_price > $variation->price) {
+                $lowest_price = round($variation->price, 2);
+            }
+            if ($highest_price < $variation->price) {
+                $highest_price = round($variation->price, 2);
+            }
+        }
+
+        $lowest_price = Frontendhelper::currency_converter($lowest_price - Frontendhelper::get_product_discount($product, $lowest_price));
+        $highest_price = Frontendhelper::currency_converter($highest_price - Frontendhelper::get_product_discount($product, $highest_price));
+
+        if ($lowest_price == $highest_price) {
+            return $lowest_price;
+        }
+        return $lowest_price . ' - ' . $highest_price;
+    }
+
+    public static function rating_count($product_id, $rating)
+    {
+        return Review::where(['product_id' => $product_id, 'rating' => $rating])->count();
+    }
 
 
     function translate($key)
@@ -232,3 +286,5 @@ if (!function_exists('currency_symbol')) {
         return $symbol;
     }
 }
+
+
