@@ -35,3 +35,6 @@ Route::get('contact', function () {
 Route::get('blogs', function () {
     return view('blog');
 });
+Route::get('product-detail', function () {
+    return view('product-detail');
+});
