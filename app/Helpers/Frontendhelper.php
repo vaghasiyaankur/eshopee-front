@@ -178,9 +178,9 @@ class Frontendhelper
     {
         $path = '';
         if ($image_type == 'thumbnail') {
-            $path = asset('storage/app/public/product/thumbnail');
+            $path = asset('storage/product/thumbnail');
         } elseif ($image_type == 'product') {
-            $path = asset('storage/app/public/product');
+            $path = asset('storage/product');
         }
         return $path;
     }

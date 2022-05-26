@@ -15,16 +15,14 @@
                 @endforeach
             </ol>
             <div class="carousel-inner">
-                @foreach($main_banner as $key=>$banner)
                     <div class="carousel-item {{$key==0?'active':''}}">
                         <a href="{{$banner['url']}}">
                             <img class="d-block w-100" style="max-height: 450px"
                                  onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
-                                 src="{{asset('storage/app/public/banner')}}/{{$banner['photo']}}"
+                                 src="{{asset('storage/banner')}}/{{$banner['photo']}}"
                                  alt="">
                         </a>
                     </div>
-                @endforeach
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                data-slide="prev">
@@ -45,7 +43,7 @@
                        style="cursor: pointer;">
                         <img class="d-block footer_banner_img" style="width: 100%"
                              onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
-                             src="{{asset('storage/app/public/banner')}}/{{$banner['photo']}}">
+                             src="{{asset('storage/banner')}}/{{$banner['photo']}}">
                     </a>
                 </div>
                 <div class="modal fade" id="quick_banner{{$banner->id}}" tabindex="-1"
@@ -64,7 +62,7 @@
                             <div class="modal-body">
                                 <img class="d-block mx-auto"
                                      onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
-                                     src="{{asset('storage/app/public/banner')}}/{{$banner['photo']}}">
+                                     src="{{asset('storage/banner')}}/{{$banner['photo']}}">
                                 @if ($banner->url!="")
                                     <div class="text-center mt-2">
                                         <a href="{{$banner->url}}"

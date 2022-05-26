@@ -77,7 +77,7 @@
       </style>
    </head>
    <body class=" @if (Request::path() == '/') template-index @endif  @if (Request::path() == 'collections') template-list-collections @endif" >
-<div id="header">
+ <div id="header">
     <header class="site-header">
        <div class="nav-header">
           <div class="page-width">
@@ -345,6 +345,7 @@
                 <div data-section-id="Ishi_megamenu" data-section-type="megamenu-header">
                    <div id="_desktop_top_menu" class="menu js-top-menu hidden-sm-down dropdown js-dropdown" role="navigation">
                       <div class="desktop-menu-block expand-more hidden-sm-down" data-toggle="dropdown"  role="button">
+                        @php($categories=\App\Model\Category::with(['childes.childes'])->where('position', 0)->paginate(11))
                          <h2 class="home-title hidden-lg-down">
                             CATEGORIES
                          </h2>
@@ -354,111 +355,98 @@
                             <div class="line-menu half end"></div>
                          </div>
                       </div>
-                      <ul class="top-menu dropdown-menu" id="top-menu">
-                        @foreach($categories as $category)
-                        <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                               <span data-href="#_n_child-one1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false">
-                                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                  </svg>
-                               </span>
-                            </span>
-                            <a href="collections/electronics.html" class="dropdown-item">
-                               <h3 class="title">{{Str::limit($category->name, 30)}}</h3>
-                               {{-- <span class="new"> NEW</span> --}}
-                               <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                               </svg>
-                            </a>
-                            <div class="popover sub-menu js-sub-menu ishi-collapse desktop-collapse" id="_n_child-one1">
-                               <ul id="top-menu-child" class="top-menu mainmenu-dropdown panel-group">
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-one1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
+                      @if(request()->is('/'))
+                        <ul class="top-menu dropdown-menu" id="top-menu">
+                            @foreach($categories as $key=>$category)
+                                @if($key<11)
+                                    <li class="category">
+                                        <span class="float-xs-right hidden-lg-up">
+                                        <span data-href="#_n_child-one1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false">
+                                            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                            </svg>
                                         </span>
-                                     </span>
-                                     <a href="collections/electronics.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Smart Technology</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-one1">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Cases & Covers</a>
-                                           </li>
-                                           <li class="category">
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-two1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
                                         </span>
-                                     </span>
-                                     <a href="collections/speaker.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Home Entertainment</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-two1">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="collections/speaker.html" class="dropdown-item">Bluetooth Speakers</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/mobile.html" class="dropdown-item">Wearable Devices</a>
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-                                  <li class="sub-category panel">
-                                     <span class="float-xs-right hidden-lg-up">
-                                        <span data-href="#_n_grand-child-three1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
-                                           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
-                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
-                                           </svg>
-                                        </span>
-                                     </span>
-                                     <a href="collections/speaker.html" class="dropdown-item dropdown-submenu">
-                                        <h3 class="inner-title">Computer Accessories</h3>
-                                     </a>
-                                     <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-three1">
-                                        <ul class="top-menu">
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Pendrives</a>
-                                           </li>
-                                           <li class="category">
-                                              <a href="collections/computer.html" class="dropdown-item">Internet Devices</a>
-                                           </li>
-                                        </ul>
-                                     </div>
-                                  </li>
-
-                               </ul>
-                               <div class="img-container">
-                                  <div class="col-xs-6 imagecontainer1">
-
-                                  </div>
-                                  <div class="col-xs-6 imagecontainer2">
-
-                                  </div>
-                               </div>
-                            </div>
-                        </li>
-                        @endforeach
-                         {{-- <li class="category">
-                            <span class="float-xs-right hidden-lg-up">
-                            </span>
-                            <a href="blogs/electronic.html" class="dropdown-item">
-                               <h3 class="title">Blogs</h3>
-                            </a>
-                         </li> --}}
-                      </ul>
+                                        <a class="dropdown-item flex-between"
+                                            <?php if ($category->childes->count() > 0) echo "data-toggle='dropdown'"?> href="javascript:"
+                                                            onclick="location.href='{{route('products',['id'=> $category['id'],'data_from'=>'category','page'=>1])}}'">
+                                            <div>
+                                                <img
+                                                    src="{{asset("storage/app/public/category/$category->icon")}}"
+                                                    onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
+                                                    style="width: 18px; height: 18px; ">
+                                                    <h3 class="title">{{Str::limit($category->name, 30)}}</h3>
+                                                    @if ($category->childes->count() > 0)
+                                                       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                                    </svg>
+                                                @endif
+                                            </div>
+                                        {{-- <span class="new"> NEW</span> --}}
+                                        </a>
+                                        @if($category->childes->count()>0)
+                                            <div class="popover sub-menu js-sub-menu ishi-collapse desktop-collapse" id="_n_child-one1">
+                                                    <ul id="top-menu-child" class="top-menu mainmenu-dropdown panel-group">
+                                                        @foreach($category['childes'] as $subCategory)
+                                                            <li class="sub-category panel">
+                                                                <span class="float-xs-right hidden-lg-up">
+                                                                    <span data-href="#_n_grand-child-one1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
+                                                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                                                    </svg>
+                                                                    </span>
+                                                                </span>
+                                                                <a class="dropdown-item dropdown-submenu" <?php if ($subCategory->childes->count() > 0) echo "data-toggle='dropdown'"?> href="javascript:"
+                                                                    onclick="location.href='{{route('products',['id'=> $subCategory['id'],'data_from'=>'category','page'=>1])}}'">
+                                                                    <h3 class="inner-title">{{$subCategory['name']}}</h3>
+                                                                </a>
+                                                                <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-one1">
+                                                                @if($subCategory->childes->count()>0)
+                                                                    <ul class="top-menu">
+                                                                        @foreach($subCategory['childes'] as $subSubCategory)
+                                                                            <li class="category">
+                                                                                <a href="{{route('products',['id'=> $subSubCategory['id'],'data_from'=>'category','page'=>1])}}" class="dropdown-item">{{$subSubCategory['name']}}</a>
+                                                                            </li>
+                                                                        @endforeach
+                                                                    </ul>
+                                                                {{-- @else
+                                                                    <a class="dropdown-item dropdown-submenu" <?php if ($subCategory->childes->count() > 0) echo "data-toggle='dropdown'"?> href="javascript:"
+                                                                    onclick="location.href='{{route('products',['id'=> $subCategory['id'],'data_from'=>'category','page'=>1])}}'">
+                                                                    <h3 class="inner-title">{{$subCategory['name']}}</h3>
+                                                                </a> --}}
+                                                                @endif
+                                                            </li>
+                                                            {{-- <li class="sub-category panel">
+                                                                <span class="float-xs-right hidden-lg-up">
+                                                                    <span data-href="#_n_grand-child-two1" data-toggle="collapse" class="ishi-collapse in navbar-toggler ishi-collapsed rotate" aria-expanded="false" data-parent="#top-menu-child">
+                                                                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/>
+                                                                    </svg>
+                                                                    </span>
+                                                                </span>
+                                                                <a href="collections/speaker.html" class="dropdown-item dropdown-submenu">
+                                                                    <h3 class="inner-title">Home Entertainment</h3>
+                                                                </a>
+                                                                <div class="top-menu ishi-collapse desktop-collapse" id="_n_grand-child-two1">
+                                                                    <ul class="top-menu">
+                                                                    <li class="category">
+                                                                        <a href="collections/speaker.html" class="dropdown-item">Bluetooth Speakers</a>
+                                                                    </li>
+                                                                    <li class="category">
+                                                                        <a href="collections/mobile.html" class="dropdown-item">Wearable Devices</a>
+                                                                    </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li> --}}
+                                                        @endforeach
+                                                    </ul>
+                                            </div>
+                                        @endif
+                                    </li>
+                                @endif
+                            @endforeach
+                        </ul>
+                      @endif
                    </div>
                 </div>
              </div>
