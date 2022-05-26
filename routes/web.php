@@ -47,6 +47,19 @@ Route::post('messages-store', 'ChattingController@messages_store')->name('messag
 Route::get('collections-all', function () {
     return view('collection-all');
 })->name('collection_all');
+Route::get('about', function () {
+    return view('about-us');
+});
+Route::get('contact', function () {
+    return view('contact');
+});
+Route::get('blogs', function () {
+    return view('blog');
+});
+Route::get('product-detail', function () {
+    return view('product-detail');
+});
+
 
 Route::get('/about', [WebController::class,'about_us'])->name('aboutus');
 
