@@ -106,7 +106,7 @@ class WebController extends Controller
             $deal_of_the_day = DealOfTheDay::where('product_id', $product->id)->where('status', 1)->first();
 
             $categories = DB::table('categories')->where('position', 0)->take(12)->get();
-            return view('web-views.products.details', compact('product', 'countWishlist', 'countOrder', 'relatedProducts', 'deal_of_the_day','categories'));
+            return view('web-views.products.product-detail', compact('product', 'countWishlist', 'countOrder', 'relatedProducts', 'deal_of_the_day','categories'));
         }
 
         Toastr::error(translate('not_found'));
