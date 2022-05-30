@@ -416,9 +416,11 @@
                                                                     </a> --}}
                                                                 </li>
                                                             @else
-                                                            <div class="SubCategory-show" style="display: grid;">
+                                                            <div class="subCategories-show" style="display: grid;">
                                                             <li class="sub-category panel">
-                                                                <h3 class="inner-title">{{$subCategory['name']}}</h3>
+                                                                <a href="" onclick="location.href='{{route('products',['id'=> $subCategory['id'],'data_from'=>'category','page'=>1])}}'">
+                                                                    <h3 class="inner-title">{{$subCategory['name']}}</h3>
+                                                                </a>
                                                             </li>
                                                             </div>
                                                             @endif

@@ -1,5 +1,177 @@
   @include('layouts.header')
 
+  @section('title',$product['name'])
+
+  @push('css_or_js')
+      <meta name="description" content="{{$product->slug}}">
+      <meta name="keywords" content="@foreach(explode(' ',$product['name']) as $keyword) {{$keyword.' , '}} @endforeach">
+      @if($product->added_by=='seller')
+          <meta name="author" content="{{ $product->seller->shop?$product->seller->shop->name:$product->seller->f_name}}">
+      @elseif($product->added_by=='admin')
+          <meta name="author" content="{{$web_config['name']->value}}">
+      @endif
+      <!-- Viewport-->
+
+      @if($product['meta_image']!=null)
+          <meta property="og:image" content="{{asset("storage/app/product/meta")}}/{{$product->meta_image}}"/>
+          <meta property="twitter:card"
+                content="{{asset("storage/app/product/meta")}}/{{$product->meta_image}}"/>
+      @else
+          <meta property="og:image" content="{{asset("storage/app/product/thumbnail")}}/{{$product->thumbnail}}"/>
+          <meta property="twitter:card"
+                content="{{asset("storage/app/product/thumbnail/")}}/{{$product->thumbnail}}"/>
+      @endif
+
+      @if($product['meta_title']!=null)
+          <meta property="og:title" content="{{$product->meta_title}}"/>
+          <meta property="twitter:title" content="{{$product->meta_title}}"/>
+      @else
+          <meta property="og:title" content="{{$product->name}}"/>
+          <meta property="twitter:title" content="{{$product->name}}"/>
+      @endif
+      <meta property="og:url" content="{{route('product',[$product->slug])}}">
+
+      @if($product['meta_description']!=null)
+          <meta property="twitter:description" content="{!! $product['meta_description'] !!}">
+          <meta property="og:description" content="{!! $product['meta_description'] !!}">
+      @else
+          <meta property="og:description"
+                content="@foreach(explode(' ',$product['name']) as $keyword) {{$keyword.' , '}} @endforeach">
+          <meta property="twitter:description"
+                content="@foreach(explode(' ',$product['name']) as $keyword) {{$keyword.' , '}} @endforeach">
+      @endif
+      <meta property="twitter:url" content="{{route('product',[$product->slug])}}">
+
+      <link rel="stylesheet" href="{{asset('assets/front-end/css/product-details.css')}}"/>
+      <style>
+          .msg-option {
+              display: none;
+          }
+
+          .chatInputBox {
+              width: 100%;
+          }
+
+          .go-to-chatbox {
+              width: 100%;
+              text-align: center;
+              padding: 5px 0px;
+              display: none;
+          }
+
+          .feature_header {
+              display: flex;
+              justify-content: center;
+          }
+
+          .btn-number:hover {
+              color: {{$web_config['secondary_color']}};
+
+          }
+
+          .for-total-price {
+              margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: -30%;
+          }
+
+          .feature_header span {
+              padding- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 15px;
+              font-weight: 700;
+              font-size: 25px;
+              background-color: #ffffff;
+              text-transform: uppercase;
+          }
+
+          @media (max-width: 768px) {
+              .feature_header span {
+                  margin-bottom: -40px;
+              }
+
+              .for-total-price {
+                  padding- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 30%;
+              }
+
+              .product-quantity {
+                  padding- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 4%;
+              }
+
+              .for-margin-bnt-mobile {
+                  margin- {{Session::get('direction') === "rtl" ? 'left' : 'right'}}: 7px;
+              }
+
+              .font-for-tab {
+                  font-size: 11px !important;
+              }
+
+              .pro {
+                  font-size: 13px;
+              }
+          }
+
+          @media (max-width: 375px) {
+              .for-margin-bnt-mobile {
+                  margin- {{Session::get('direction') === "rtl" ? 'left' : 'right'}}: 3px;
+              }
+
+              .for-discount {
+                  margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 10% !important;
+              }
+
+              .for-dicount-div {
+                  margin-top: -5%;
+                  margin- {{Session::get('direction') === "rtl" ? 'left' : 'right'}}: -7%;
+              }
+
+              .product-quantity {
+                  margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 4%;
+              }
+
+          }
+
+          @media (max-width: 500px) {
+              .for-dicount-div {
+                  margin-top: -4%;
+                  margin- {{Session::get('direction') === "rtl" ? 'left' : 'right'}}: -5%;
+              }
+
+              .for-total-price {
+                  margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: -20%;
+              }
+
+              .view-btn-div {
+
+                  margin-top: -9%;
+                  float: {{Session::get('direction') === "rtl" ? 'left' : 'right'}};
+              }
+
+              .for-discount {
+                  margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 7%;
+              }
+
+              .viw-btn-a {
+                  font-size: 10px;
+                  font-weight: 600;
+              }
+
+              .feature_header span {
+                  margin-bottom: -7px;
+              }
+
+              .for-mobile-capacity {
+                  margin- {{Session::get('direction') === "rtl" ? 'right' : 'left'}}: 7%;
+              }
+          }
+        thead {
+            background: {{ $web_config['primary_color'] }};
+            color: white;
+        }
+          th, td {
+              border-bottom: 1px solid #ddd;
+              padding: 5px;
+          }
+
+      </style>
+  @endpush
+  @section('content')
 
         <?php
         $overallRating = \App\Helpers\Frontendhelper::get_overall_rating($product->reviews);
@@ -8,14 +180,15 @@
         <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
             <div class="normal_main_content page-width">
                 <section id="shopify-section-template--14217818570836__main" class="shopify-section product-section spaced-section">
-                <div class="row grid">
-                    <div class="grid__item product__media-wrapper col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <slider-component class="slider-mobile-gutter product--media--sticky">
-                            <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-template--14217818570836__main">
-                            Skip to product information
-                            </a>
-                            <ul id="main-media-container" class="single-product zoom">
-                                @if(json_decode($product->images)!=null)
+                    <div class="row grid">
+                        <div class="grid__item product__media-wrapper col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <slider-component class="slider-mobile-gutter product--media--sticky">
+                                <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-template--14217818570836__main">
+                                    Skip to product information
+                                </a>
+                                <ul id="main-media-container" class="single-product zoom">
+                                    @if(json_decode($product->images)!=null)
+                                    @dd("hdsuyf")
                                     @foreach (json_decode($product->images) as $key => $photo)
                                         <li class="product__media-item grid__item" data-media-id="template--14217818570836__main-1687954882644" data-media-type="image">
                                             <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden" data-modal="#ProductModal-template--14217818570836__main">
@@ -837,6 +1010,7 @@
                 </section>
             </div>
         </main>
+@endsection
 
         @include('layouts.footer')
 </html>

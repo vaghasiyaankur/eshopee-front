@@ -1544,6 +1544,7 @@ right: 16px;
      border-bottom: none;
   }
 }
+
  #top-menu > li .dropdown-item, .dropdown-menu > li .dropdown-item {
    white-space: normal;
 }
@@ -1828,7 +1829,10 @@ right: 16px;
 }
 
 .top-menu .popover {
-  max-width: inherit;
+  max-width:max-content;
+}
+#top-menu h3, .dropdown-menu h3{
+    line-height: 2.5rem;
 }
 
 .sub-menu .img-container {
